@@ -67,3 +67,47 @@ const moveBlock = () => {
 };
 
 moveBlock();
+
+// Stopwatch
+
+const seconds = document.querySelector('#seconds');
+const startBtn = document.querySelector('#start');
+const stopBtn = document.querySelector('#stop');
+const resetBtn = document.querySelector('#reset');
+
+let sec = 0
+let timer = 0
+
+const updateTimer = () => {
+    seconds.textContent = sec;
+}
+
+const startTimer = () => {
+    if (timer === 0) {
+        timer = setInterval(() => {
+            sec++
+            updateTimer()
+            console.log('ok');
+        },  1000)
+    }
+}
+
+const stopTimer = () => {
+    clearInterval(timer);
+    timer = 0
+    console.log('ok1');
+    updateTimer()
+}
+
+updateTimer();
+
+const resetTimer = () => {
+    stopTimer();
+    sec = 0;
+    updateTimer();
+    console.log('ok2');
+}
+
+startBtn.addEventListener('click', startTimer);
+stopBtn.addEventListener('click', stopTimer);
+resetBtn.addEventListener('click', resetTimer);
