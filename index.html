@@ -5,21 +5,22 @@
     <title>Java Script</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="./css/movie.css">
 </head>
 <body>
 
 <div class="wrapper">
+    <div class="header_video">
+        <video autoplay muted loop preload="auto" playsinline id="myVideo">
+            <source src="./video/cs2movie480px.mp4" type="video/mp4">
+        </video>
+    </div>
     <div class="header">
-        <div class="header_video">
-            <video autoplay muted loop preload="auto" playsinline id="myVideo">
-                <source src="./video/cs2movie480px.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="container">
+        <div class="container header-container">
             <div class="inner_header">
                 <a href="index.html">
                     <div class="logotype">
-                        <h2><img src="./images/cs2logo.PNG" alt=""></h2>
+                        <img src="./images/cs2logo.PNG" alt="">
                     </div>
                 </a>
                 <ul class="menu">
@@ -35,18 +36,17 @@
                 </ul>
                 <button class="btn" id="btn-get">Click me!</button>
             </div>
-        </div>
-    </div>
-
-    <div class="main_block">
-        <div class="container">
-            <div class="inner_main">
-                <h1><strong id="js-color">JavaScript</strong> - на самом деле очень легко и просто!</h1>
-                <div class="colors-buttons">
-                    <button class="btn btn-color"></button>
-                    <button class="btn btn-color"></button>
-                    <button class="btn btn-color"></button>
-                    <button class="btn btn-color"></button>
+            <div class="main_block">
+                <div class="container">
+                    <div class="inner_main">
+                        <h1>Начни играть в <strong>Counter Strike 2</strong> уже сейчас!</h1>
+                        <div class="colors-buttons">
+                            <button class="btn btn-color"></button>
+                            <button class="btn btn-color"></button>
+                            <button class="btn btn-color"></button>
+                            <button class="btn btn-color"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

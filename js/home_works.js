@@ -18,13 +18,52 @@ gmailButton.onclick = () => {
 
 // move block
 
+const parentBlock = document.querySelector('.parent_block');
 const childBlock = document.querySelector('.child_block');
-const moveBlockRight = (posX = 0) => {
-    if (posX <= 449) {
-        childBlock.style.left = `${posX}px`;
-        requestAnimationFrame(() => moveBlockRight(
-            posX + 1));
+
+let posX = 0;
+let posY = 0;
+const maxX = parentBlock.clientWidth - childBlock.clientWidth;
+const maxY = parentBlock.clientHeight - childBlock.clientHeight;
+
+let direction = 0;
+
+const moveBlock = () => {
+    switch(direction) {
+        case 0:
+            if (posX < maxX) {
+                posX++;
+                childBlock.style.left = `${posX}px`;
+            } else {
+                direction = 1;
+            }
+            break;
+        case 1:
+            if (posY < maxY) {
+                posY++;
+                childBlock.style.top = `${posY}px`;
+            } else {
+                direction = 2;
+            }
+            break;
+        case 2:
+            if (posX > 0) {
+                posX--;
+                childBlock.style.left = `${posX}px`;
+            } else {
+                direction = 3;
+            }
+            break;
+        case 3:
+            if (posY > 0) {
+                posY--;
+                childBlock.style.top = `${posY}px`;
+            } else {
+                direction = 0;
+            }
+            break;
     }
+    requestAnimationFrame(moveBlock);
 };
 
-moveBlockRight();
+moveBlock();
