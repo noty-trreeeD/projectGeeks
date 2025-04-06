@@ -1,77 +1,29 @@
-// RANDOM COLOR GENERATOR
+// Teams slider
 
-// const buttonsColor = document.querySelectorAll('.btn-color')
-// const javaScript = document.querySelector('#js-color')
-//
-// const generateRandomColor = () => {
-//     const hexCodes = '0123456789ABCDEF'
-//     let color = ''
-//     for (let i = 0; i < 6; i++) {
-//         color += hexCodes[Math.floor(Math.random() * hexCodes.length)]
-//     }
-//     return '#' + color
-// }
-//
-// const setRandomColors = () => {
-//     buttonsColor.forEach((buttonColor) => {
-//         buttonColor.innerHTML = generateRandomColor()
-//         buttonColor.onclick = (event) => {
-//             javaScript.style.color = event.target.innerHTML
-//         }
-//     })
-// }
-//
-// window.onload = () => setRandomColors()
-// window.onkeydown = (event) => {
-//     if (event.code.toLowerCase() === 'space') {
-//         event.preventDefault()
-//         setRandomColors()
-//     }
-// }
+const sliderLine = document.getElementById('sliderLine');
+const cloneLine = sliderLine.cloneNode(true);
+sliderLine.parentElement.appendChild(cloneLine);
 
-// SLIDER BLOCK
+let x = 0;
+const speed = 1;
+let paused = false;
 
-const slides = document.querySelectorAll('.slide')
-const next = document.querySelector('#next')
-const prev = document.querySelector('#prev')
-let index = 0
+const sliderTrack = sliderLine.parentElement;
+sliderTrack.addEventListener('mouseenter', () => paused = true);
+sliderTrack.addEventListener('mouseleave', () => paused = false);
 
-const hideSlide = () => {
-    slides.forEach((slide) => {
-        slide.style.opacity = 0
-        slide.classList.remove('active_slide')
-    })
-}
-const showSlide = (i = 0) => {
-    slides[i].style.opacity = 1
-    slides[i].classList.add('active_slide')
-}
-
-hideSlide()
-showSlide(index)
-
-
-const autoSlider = (i = 0) => {
-    setInterval(() => {
-        i++
-        if (i > slides.length - 1) {
-            i = 0
+function animate() {
+    if (!paused) {
+        x -= speed;
+        if (Math.abs(x) >= sliderLine.offsetWidth) {
+            x = 0;
         }
-        hideSlide()
-        showSlide(i)
-    }, 10000)
+
+        sliderLine.style.transform = `translateX(${x}px)`;
+        cloneLine.style.transform = `translateX(${x + sliderLine.offsetWidth}px)`;
+    }
+
+    requestAnimationFrame(animate);
 }
 
-next.onclick = () => {
-    index < slides.length - 1 ? index++ : index = 0
-    hideSlide()
-    showSlide(index)
-}
-
-prev.onclick = () => {
-    index > 0 ? index-- : index = slides.length - 1
-    hideSlide()
-    showSlide(index)
-}
-
-autoSlider(index)
+animate();
