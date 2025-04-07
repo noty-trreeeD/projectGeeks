@@ -1,3 +1,48 @@
+// CS slider
+
+const slides = document.querySelectorAll('.slide');
+const nextBtn = document.getElementById('cs-slider-next');
+const prevBtn = document.getElementById('cs-slider-prev');
+const dots = document.querySelectorAll('.dot');
+
+let index = 0;
+
+function showSlide(i) {
+    slides.forEach((slide, idx) => {
+        slide.classList.toggle('active', idx === i);
+    });
+    dots.forEach((dot, idx) => {
+        dot.classList.toggle('active-dot', idx === i);
+    });
+}
+
+nextBtn.onclick = () => {
+    index = (index + 1) % slides.length;
+    showSlide(index);
+};
+
+prevBtn.onclick = () => {
+    index = (index - 1 + slides.length) % slides.length;
+    showSlide(index);
+};
+
+dots.forEach((dot, i) => {
+    dot.onclick = () => {
+        index = i;
+        showSlide(index);
+    };
+});
+
+function autoSlide() {
+    index = (index + 1) % slides.length;
+    showSlide(index);
+}
+
+// Автоматическое переключение слайдов каждые 5 секунд
+setInterval(autoSlide, 5000);
+
+showSlide(index);
+
 // Teams slider
 
 const sliderLine = document.getElementById('sliderLine');

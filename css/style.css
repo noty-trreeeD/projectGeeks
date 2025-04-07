@@ -191,6 +191,131 @@
     font-weight: 600;
 }
 
+/* CS slider */
+
+.cs-slider {
+    width: 100%;
+    background: linear-gradient(135deg, #121212, #1a1a1a);
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+}
+
+#cs-slider-prev {
+    left: -64px;
+}
+
+#cs-slider-next {
+    right: -64px;
+}
+
+.slider button:hover {
+    background-color: rgba(255, 165, 0, 0.8);
+    transform: translateY(-50%) scale(1.1);
+    color: #121212;
+}
+
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 2;
+}
+
+.slide-info {
+    width: 50%;
+    color: white;
+    padding-right: 30px;
+}
+
+.slide-info h4 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: var(--orange);
+}
+
+.slide-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.slide img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.4);
+}
+
+.slider-indicator {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #444;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot:hover,
+.dot.active-dot {
+    background-color: var(--orange);
+}
 
 /* SLIDER BLOCK */
 
