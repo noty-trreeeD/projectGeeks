@@ -1,16 +1,18 @@
 /* HEADER */
 
-.header-container {
+.blur-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     background: rgba(49, 48, 48, 0.25);
     backdrop-filter: blur(5px);
 }
 
 .header {
+    position: fixed;
     width: 100%;
-    height: auto;
+    padding-top: 0;
+    overflow: hidden;
+    z-index: 3;
 }
 
 .inner_header {
@@ -87,24 +89,26 @@
 /* MAIN BLOCK */
 
 .main_block {
-    flex: 1;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px 0;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 1s ease-out forwards;
-    animation-delay: 0.3s;
-    margin-top: 60px;
+    height: 100vh;
 }
 
 .inner_main {
+    position: absolute;
     width: 100%;
     max-width: 1200px;
+    height: 100vh;
     margin: 0 auto;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 0 20px;
+    animation: slowShow 1s ease-out forwards;
+    animation-delay: 0.3s;
 }
 
 .main_block h1 {
@@ -160,14 +164,12 @@
     transform: translateY(0) scale(0.98);
 }
 
-@keyframes fadeInUp {
+@keyframes slowShow {
     0% {
         opacity: 0;
-        transform: translateY(20px);
     }
     100% {
         opacity: 1;
-        transform: translateY(0);
     }
 }
 
@@ -435,6 +437,7 @@
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     display: none;
+    animation: slowShow 1s ease-out;
 }
 
 .modal_dialog {

@@ -1,13 +1,4 @@
-.header {
-    width: 100%;
-    height: 100vw;
-    max-height: 100vh;
-    padding-top: 0;
-    overflow: hidden;
-    position: relative;
-}
-
-.header_video {
+.main_block_video {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -16,7 +7,7 @@
     z-index: -1;
 }
 
-.header_video::before {
+.main_block_video::before {
     content: "";
     position: absolute;
     top: 0;
