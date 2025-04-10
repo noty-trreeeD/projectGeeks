@@ -6,41 +6,44 @@ const prevBtn = document.getElementById('cs-slider-prev');
 const dots = document.querySelectorAll('.dot');
 
 let index = 0;
+let intervalId;
 
 function showSlide(i) {
+    index = (i + slides.length) % slides.length;
     slides.forEach((slide, idx) => {
-        slide.classList.toggle('active', idx === i);
+        slide.classList.toggle('active', idx === index);
     });
     dots.forEach((dot, idx) => {
-        dot.classList.toggle('active-dot', idx === i);
+        dot.classList.toggle('active-dot', idx === index);
     });
 }
 
-nextBtn.onclick = () => {
-    index = (index + 1) % slides.length;
-    showSlide(index);
-};
+function nextSlide() {
+    showSlide(index + 1);
+    resetInterval();
+}
 
-prevBtn.onclick = () => {
-    index = (index - 1 + slides.length) % slides.length;
-    showSlide(index);
-};
+function prevSlide() {
+    showSlide(index - 1);
+    resetInterval();
+}
+
+function resetInterval() {
+    clearInterval(intervalId);
+    intervalId = setInterval(() => showSlide(index + 1), 5000);
+}
+
+nextBtn.onclick = nextSlide;
+prevBtn.onclick = prevSlide;
 
 dots.forEach((dot, i) => {
     dot.onclick = () => {
-        index = i;
-        showSlide(index);
+        showSlide(i);
+        resetInterval();
     };
 });
 
-function autoSlide() {
-    index = (index + 1) % slides.length;
-    showSlide(index);
-}
-
-// Автоматическое переключение слайдов каждые 5 секунд
-setInterval(autoSlide, 5000);
-
+intervalId = setInterval(() => showSlide(index + 1), 3000);
 showSlide(index);
 
 // Teams slider
