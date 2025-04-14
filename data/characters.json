@@ -1,0 +1,54 @@
+[
+  {
+    "collection": "The Professionals",
+    "name": "Number K",
+    "rarity": "Superior Agent",
+    "operation": "Broken Fang Agents",
+    "photo": "../images/agents/numberK.png"
+  },
+  {
+    "collection": "FBI",
+    "name": "Special Agent Ava",
+    "rarity": "Exceptional Agent",
+    "operation": "Shattered Web Agents",
+    "photo": "../images/agents/specialAva.png"
+  },
+  {
+    "collection": "The Elite Crew",
+    "name": "Osiris",
+    "rarity": "Superior Agent",
+    "operation": "Broken Fang Agents",
+    "photo": "../images/agents/osiris.png"
+  },
+  {
+    "collection": "The Phoenix",
+    "name": "Street Soldier",
+    "rarity": "Distinguished Agent",
+    "operation": "Shattered Web Agents",
+    "photo": "../images/agents/streetSoldier.png"
+  },
+  {
+    "collection": "Seal Team 6",
+    "name": "Buckshot",
+    "rarity": "Superior Agent",
+    "operation": "Broken Fang Agents"
+  },
+  {
+    "collection": "Balkan",
+    "name": "Blackwolf",
+    "rarity": "Exceptional Agent",
+    "operation": "Shattered Web Agents"
+  },
+  {
+    "collection": "The Phoenix",
+    "name": "Street Soldier",
+    "rarity": "Distinguished Agent",
+    "operation": "Shattered Web Agents"
+  },
+  {
+    "collection": "Seal Team 6",
+    "name": "Buckshot",
+    "rarity": "Superior Agent",
+    "operation": "Broken Fang Agents"
+  }
+]

@@ -87,7 +87,6 @@ const startTimer = () => {
         timer = setInterval(() => {
             sec++
             updateTimer()
-            console.log('ok');
         },  1000)
     }
 }
@@ -95,7 +94,6 @@ const startTimer = () => {
 const stopTimer = () => {
     clearInterval(timer);
     timer = 0
-    console.log('ok1');
     updateTimer()
 }
 
@@ -105,9 +103,66 @@ const resetTimer = () => {
     stopTimer();
     sec = 0;
     updateTimer();
-    console.log('ok2');
 }
 
 startBtn.addEventListener('click', startTimer);
 stopBtn.addEventListener('click', stopTimer);
 resetBtn.addEventListener('click', resetTimer);
+
+// Characters
+
+const defaultPhoto = '../images/default.png';
+const xhrAgents = new XMLHttpRequest();
+xhrAgents.open('GET', '../data/characters.json');
+xhrAgents.setRequestHeader('Content-type', 'application/json');
+xhrAgents.send();
+
+xhrAgents.onload = () => {
+    const data = JSON.parse(xhrAgents.response);
+    const list = document.querySelector('.characters-list');
+
+    data.forEach(character => {
+        const card = document.createElement('div');
+        card.classList.add('character-card');
+
+        const photoWrapper = document.createElement('div');
+        photoWrapper.classList.add('character-photo');
+
+        const img = document.createElement('img');
+        img.src = character.photo || defaultPhoto;
+        photoWrapper.appendChild(img);
+
+        const name = document.createElement('h3');
+        name.textContent = character.name || 'Без имени';
+
+        const collection = document.createElement('p');
+        collection.textContent = `Collection: ${character.collection}`;
+
+        const rarity = document.createElement('p');
+        rarity.textContent = `Rarity: ${character.rarity}`;
+
+        const operation = document.createElement('p');
+        operation.textContent = `Operation: ${character.operation}`;
+
+        card.appendChild(photoWrapper);
+        card.appendChild(name);
+        card.appendChild(collection);
+        card.appendChild(rarity);
+        card.appendChild(operation);
+
+        list.appendChild(card);
+    });
+};
+
+
+// any json
+
+const xhr = new XMLHttpRequest();
+xhr.open('GET', '../data/any.json');
+xhr.setRequestHeader('Content-type', 'application/json');
+xhr.send();
+
+xhr.onload = () => {
+    const weapons = JSON.parse(xhr.response);
+    console.log(weapons);
+};

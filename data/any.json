@@ -1,0 +1,20 @@
+[
+  {
+    "weapon": "AK-47",
+    "type": "Rifle",
+    "price": 2700,
+    "damage": 36
+  },
+  {
+    "weapon": "AWP",
+    "type": "Sniper Rifle",
+    "price": 4750,
+    "damage": 115
+  },
+  {
+    "weapon": "Desert Eagle",
+    "type": "Pistol",
+    "price": 700,
+    "damage": 53
+  }
+]

@@ -204,6 +204,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
+    color: white;
 }
 
 .character-card {
