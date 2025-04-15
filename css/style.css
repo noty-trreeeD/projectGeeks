@@ -508,13 +508,6 @@
     z-index: 0;
 }
 
-.container {
-    width: 100%;
-    max-width: 1200px; /* или другой размер по вашему выбору */
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .cases_inner {
     width: 100%;
     position: relative;
