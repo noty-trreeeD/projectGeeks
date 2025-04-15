@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS2 Cases</title>
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cases.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html">
+                    <div class="logotype">
+                        <img src="../images/cs2logo.PNG" alt="">
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="../pages/home_works.html">Home Works</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/lessons.html">Lessons</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="https://t.me/NurDinBuy16" target="_blank">Send message</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container cases-container">
+        <h1 class="title">Доступные кейсы</h1>
+        <div id="caseList" class="case-list"></div>
+    </div>
+
+    <div class="modal hidden" id="caseModal">
+        <div class="modal-inner">
+            <h2 id="caseName" class="modal-title"></h2>
+            <div class="case-display">
+                <div class="case-items" id="caseItems"></div>
+            </div>
+            <div class="btns">
+                <button class="btn open-btn" id="openCaseBtn">Открыть кейс</button>
+                <button class="btn close-btn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal hidden" id="resultModal">
+        <div class="modal-inner">
+            <h2>Вы выбили:</h2>
+            <div class="unboxed-item">
+                <img src="" id="itemImage" alt="Drop">
+                <h3 id="itemName"></h3>
+                <p id="itemRarity"></p>
+            </div>
+            <button class="btn close-btn">Закрыть</button>
+        </div>
+    </div>
+</div>
+
+<script src="../js/cases.js"></script>
+</body>
+</html>

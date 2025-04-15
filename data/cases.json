@@ -1,0 +1,528 @@
+[
+  {
+    "name": "Fever Case",
+    "photo": "https://cdn.csgoskins.gg/public/uih/products/aHR0cHM6Ly9jb21tdW5pdHkuY2xvdWRmbGFyZS5zdGVhbXN0YXRpYy5jb20vZWNvbm9teS9pbWFnZS8tOWE4MWRsV0x3SjJVVUdjVnNfbnNWdHpkT0VkdFd3S0daWkxRSFR4RFo3STU2S1UwWnd3bzROVVg0b0ZKWkVITGJYVTVBMVBJWVFOcWhwT1NWLWZSUGFzdzhyc1VGSjVLQkZadjY2OEZGUTFuYXFSSkdVWHZkbm53SVRUeEtIMlllalRrakpTdWNFbzM3akU5dFQzM3dIbC1VVnJZRzc3STlLTE1saHBQZF90X2JZ/auto/auto/85/notrim/eed2080662cc22496f41cf847ca92a89.webp",
+    "loot": {
+      "sure-grip": {
+        "name": "P2000 | Sure Grip",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9oa3AyMDAwX3Aya19mcmFjdGFsX2xpZ2h0LmU1YjZlNWNlN2UzNGJlMWNhNjVmY2I3NGVlMWNiN2FlY2UxY2RkZjMucG5n/auto/auto/85/notrim/3e7454bcab1af4876df517f15686ccd1.webp"
+      },
+      "mockingbird": {
+        "name": "XM1014 | Mockingbird",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl94bTEwMTRfeG0xMDE0X21vY2tpbmdiaXJkX2xpZ2h0LmI3N2RkMzc1NTY2YmM0ODk2MTcyMzYxZTE0ZGVjYjRkNzU1ODU0MDYucG5n/auto/auto/85/notrim/21b8bfe021b8a83b592f2ca5774ca085.webp"
+      },
+      "nexus": {
+        "name": "MP9 | Nexus",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tcDlfbXA5X25leHVzX2xpZ2h0LjZkNmE5ZjMyZGRhMGNkODZjMGJhMjVhOTEwZGVkMThmNGFhNDA4NGMucG5n/auto/auto/85/notrim/0b6b4640e491bf590f246f8f38442aa2.webp"
+      },
+      "resupply":{
+        "name": "MAG-7 | Resupply",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tYWc3X21hZzdfYW1tb19ib3hfbGlnaHQuYjRiOGYzNTM1MWNkNWY2MTU0YTFiZjA4NWUwM2Y2OWZhODY4MjAxZC5wbmc-/auto/auto/85/notrim/ba0872c748417b4f388cca9df3ee5bff.webp"
+      },
+      "memorial":{
+        "name": "SSG 08 | Memorial",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zc2cwOF9zc2cwOF9icnV0YWxpc3RfbGlnaHQuZTc4MDVkMjRiM2ExZDdkZDI4YjM1ZDQyZDJiYjljMzY2ZDljMDMxOC5wbmc-/auto/auto/85/notrim/718351408b83d455acff59d96e6c2c4b.webp"
+      },
+      "choppa":{
+        "name": "M4A4 | Choppa",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX200YTRfZ3JlZW5fY2Ftb19saWdodC4wMTYwMDVkZjNjY2EwNWYwYWQyNDFhZDU4Mzc1OTNiNjlhMDdiMzFmLnBuZw--/auto/auto/85/notrim/bab3b69ba415fa5c7d970c74f9ddc876.webp"
+      },
+      "pcGrn":{
+        "name": "USP-S | PC-GRN",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91c3Bfc2lsZW5jZXJfdXNwc19icnV0ZWZvcmNlX2dyZWVuX2xpZ2h0LjE0ZjMxN2I4MDliYmNiZWQwNWI2YjNjZmQxZmM3ZDM3Y2Q0NmI5ZmMucG5n/auto/auto/85/notrim/a2aba09d3b467b92b788178e23f878dd.webp"
+      },
+      "waveBreaker":{
+        "name": "P90 | Wave Breaker",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tYWc3X21hZzdfYW1tb19ib3hfbGlnaHQuYjRiOGYzNTM1MWNkNWY2MTU0YTFiZjA4NWUwM2Y2OWZhODY4MjAxZC5wbmc-/auto/auto/85/notrim/ba0872c748417b4f388cca9df3ee5bff.webp"
+      },
+      "risingSun":{
+        "name": "Nova | Rising Sun",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9ub3ZhX25vdmFfcmlzaW5nX3N1bl9saWdodC5iZWMwM2E4MTZiOWJjOGU2YjEzNjFjYzY2YjViNGUzMzI3YzBlZjk0LnBuZw--/auto/auto/85/notrim/51215aefa478636aa04824035a87190a.webp"
+      },
+      "control":{
+        "name": "Galil AR | Control",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nYWxpbGFyX2dhbGlsX2NvbnRyb2xfc3RyaWtlX2xpZ2h0LjY0YjBiYTIwODNiMGU2N2NiNzdkMGU4YzcxMWJmZjgyNzM2NmE0N2YucG5n/auto/auto/85/notrim/0e6345e62dbfc9aa63dc3c678c7ec369.webp"
+      },
+      "tosai":{
+        "name": "Zeus x27 | Tosai",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl90YXNlcl96ZXVzX3Rvc2FpX2xpZ2h0LmVmNzRhNTk3NDZiZGNiZGQ5NTFmNGQ0OTNiYzU0MmExYTA4ZmVhZTYucG5n/auto/auto/85/notrim/f0f52dd5eae5552da50c539fc6c19be1.webp"
+      },
+      "serpentStrike":{
+        "name": "Desert Eagle | Serpent Strike",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9kZWFnbGVfZGVhZ2xlX3NuYWtlX3BhdHRlcm5fbGlnaHQuMTBiOWFkODRmZWU3ZWVmNzY0NDA3YWI0ZjBjNmQ1YWEwYzhmOWU4ZS5wbmc-/auto/auto/85/notrim/ca4b352ef50be51308c8bab5b079df56.webp"
+      },
+      "koFactory":{
+        "name": "UMP-45 | K.O. Factory",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91bXA0NV91bXA0NV9vbGRfY2FydG9vbl9saWdodC5kOGFiMDFkOTliYzA0Y2I2NmVjNGVhYThiMWU1MDM4NTQ5OWQzOTcyLnBuZw--/auto/auto/85/notrim/25bab610991cd1d26211aebbba87f65e.webp"
+      },
+      "shinobu":{
+        "name": "Glock-18 | Shinobu",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nbG9ja19nbG9ja19zaGlub2J1X2xpZ2h0LjVkZGM4ODA1YTZjZDllZWNhMzgzZDkxMTFkYTE5MmNjMmM3OWQxZjkucG5n/auto/auto/85/notrim/ed997d5dccf8398bb9651e57be405a24.webp"
+      },
+      "searingRage":{
+        "name": "AK-47 | Searing Rage",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hazQ3X2FrNDdfZXhwbG9zaXZlX2xpZ2h0LjY0MWUyYzA2ZThlOGY1YmEzZDE5OTg2YTczN2FjODcwMGI3NjYxMTgucG5n/auto/auto/85/notrim/a4c0031808d3fc0b445b309c26ae96bb.webp"
+      },
+      "badTrip":{
+        "name": "FAMAS | Bad Trip",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9mYW1hc19mYW1hc19iYWR0cmlwX2xpZ2h0LmRlNWRiYzA3OTkyZWU4NWMwMDViNmZkOWUzMmNlNWYyM2E3OTYyNTAucG5n/auto/auto/85/notrim/53c1b0975025d7fbaa772474d329a345.webp"
+      },
+      "printstream":{
+        "name": "AWP | Printstream",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hd3BfYXdwX3ByaW50c3RyZWFtX2xpZ2h0LjRmYjJlNDY4NzdlZGEzNGJiYjdiZmNlODI5YTA0YjA2OTUyZmZkNjEucG5n/auto/auto/85/notrim/db5e0a74a4e2030a7840519acea25976.webp"
+      },
+      "rare":{
+        "name": "Knife",
+        "rarity": "★ Rare Special Items ★",
+        "photo": "https://cdn.csgoskins.gg/public/uih/misc/aHR0cHM6Ly9jc2dvc2tpbnMuZ2cvYnVpbGQvYXNzZXRzL3JhcmUtaXRlbS10eEVaV1Q1Ry5wbmc-/auto/128/85/notrim/1fddea1e3843c479d1cba4efad55306b.webp"
+      }
+    }
+  },
+  {
+    "name": "Dreams & Nightmares Case",
+    "photo": "https://cdn.csgoskins.gg/public/uih/products/aHR0cHM6Ly9jb21tdW5pdHkuY2xvdWRmbGFyZS5zdGVhbXN0YXRpYy5jb20vZWNvbm9teS9pbWFnZS8tOWE4MWRsV0x3SjJVVUdjVnNfbnNWdHpkT0VkdFd3S0daWkxRSFR4RFo3STU2S1UwWnd3bzROVVg0b0ZKWkVITGJYVTVBMVBJWVFOcWhwT1NWLWZSUGFzdzhyc1VGSjVLQkZadjY2OEZGUXduZkNjSm14RHY5cmh3SUhad3FQM2EtdUd3ejlYdjhGMGotcVFySTN4aVZMa3J4VnVaVy1tSm9XTE1saHBXaEZrYzlN/auto/auto/85/notrim/ff0c1ef8839b882d7354bda123be2d5d.webp",
+    "loot": {
+      "liftedSpirits": {
+        "name": "P2000 | Lifted Spirits",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9oa3AyMDAwX2N1X3Aya19mbHlpbmdfZHJlYW1fbGlnaHQuZjk1NjBlMDE2MzExYTY4NzY5Nzg3NDkwZWIyMWQzZTM5NTYyODlhYy5wbmc-/auto/auto/85/notrim/bb789e1ae06263f390b97e01250d6769.webp"
+      },
+      "foresight": {
+        "name": "MAG-7 | Foresight",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tYWc3X2N1X21hZzdfcHJlZGljdG9yX2xpZ2h0LmRkYWY4MTA4ZTMyYWFkZGNiYWRhNTU1NTczNjg0NmI1OTkzN2I1MzEucG5n/auto/auto/85/notrim/cb36bdd4a68bd2a3a49e5461480d2113.webp"
+      },
+      "spiritBoard": {
+        "name": "Sewed-Off | Spirit Board",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zYXdlZG9mZl9jdV9zYXdlZG9mZl9vdWlqYV9saWdodC5iZGY3YmIyNmEzZDY4ZGU1NGNjMzA2ZTdjNmVhNmEwZGI1MmRlZTJkLnBuZw--/auto/auto/85/notrim/b7213de677a86a89454171e501edbf15.webp"
+      },
+      "necroJr": {
+        "name": "MP5-SD | Necro Jr.",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tcDVzZF9nc19tcDVfa2lkX25lY3Jvbm9taWNvbl9saWdodC4wMTI0YTJjYzQxMDY1MmQ4NDc3N2E1Y2Y0YTY4NzM5MzA3NTgwYTg1LnBuZw--/auto/auto/85/notrim/0695a1abbd50e387fcd6e95df6ab1666.webp"
+      },
+      "ensnared": {
+        "name": "MAC-10 | Ensnared",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tYWMxMF9jdV9tYWMxMF9waXhpZV9saWdodC5lZjQ0ZThiMzE0NGY3MGNhMTE4ZTQzM2ZjZmNjMTZjNjQ5YjdhNzEzLnBuZw--/auto/auto/85/notrim/02829a4c1571b92f2202c1bafd2c74c6.webp"
+      },
+      "poultrygeist": {
+        "name": "SCAR-20 | Poultrygeist",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zY2FyMjBfc3Bfc2Nhcl9jaGlja2VuZmlnaHRfbGlnaHQuMmI1MzhiZDVmN2I0ZGIwZjQ1NjE1NGZjOWU3MThmZDIzNWNkYTM3NS5wbmc-/auto/auto/85/notrim/361b4919124d1a54472ce7b245499e9e.webp"
+      },
+      "scrawl": {
+        "name": "Five-Seven | Scrawl",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9maXZlc2V2ZW5fY3VfZml2ZXNldmVuX2FscGhhX29tZWdhX2xpZ2h0Ljc4Y2QzNDM2MWMwM2UzOTgzNTNmNWE0ZWNhOTc2OGYwNDUwMDNkYWIucG5n/auto/auto/85/notrim/6627905fe3a2060f32fe03fdf40e265e.webp"
+      },
+      "dreamGlade": {
+        "name": "G3SG1 | Dream Glade",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nM3NnMV9jdV9nM3NnMV9nbGFkZV9saWdodC5hNWQzZTg5YWFmZGU4NDE5OWJiYzVkZjU4MDE1MGQwMzdjMTE5ZTk3LnBuZw--/auto/auto/85/notrim/12d71546a9e8d61055e77f6305538720.webp"
+      },
+      "spaceCat": {
+        "name": "PP-Bizon | Space Cat",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9iaXpvbl9jdV9iaXpvbl9zcGFjZWNhdF9saWdodC5hODVjNjJjMWZjMTI1NmFmYjY5ZmE4ZGEwNGMyZWNjMzU4ODdhMGQ3LnBuZw--/auto/auto/85/notrim/7e39a76b7c69de8821e223de5df2d05f.webp"
+      },
+      "zombieOffensive": {
+        "name": "XM1014 | Zombie Offensive",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl94bTEwMTRfYW1feG1fem9tYmllX29mZmVuc2l2ZV9saWdodC43YjEzOThlMGY2MTY2OWY0Zjk5MWExYTBmYzg0ZGNlMmY4ZmMzNzU1LnBuZw--/auto/auto/85/notrim/d381afa018891cfbe13ded0c565bd0f6.webp"
+      },
+      "ticketToHell": {
+        "name": "USP-S | Ticket to Hell",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91c3Bfc2lsZW5jZXJfY3VfdXNwX3RvX2hlbGxfbGlnaHQuN2U5NjgyMjczNWZlYjJiMGUyNjNiMzk5YjQzNzVmMGY1NDU0OWEzNS5wbmc-/auto/auto/85/notrim/0656a903dbd73409cefc62fcf5dd774f.webp"
+      },
+      "nightTerror": {
+        "name": "M4A1-S | Night Terror",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX3NpbGVuY2VyX2dzX200YTFzX2luc29tbmlhX2xpZ2h0LjRlN2ZmY2ZmMDJjOTI4ZGIzZTU0NjViZDU4YmVkZWQ3OWNmZWRjMjAucG5n/auto/auto/85/notrim/4b97819444ee304ad2f8767b40af2bac.webp"
+      },
+      "abyssalApparition": {
+        "name": "MP7 | Abyssal Apparition",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tcDdfY3VfbXA3X2ZlYXJfbGlnaHQuZmRlYWQwZDIwN2ZjNGE1NWViY2ZmM2ZmOGEyMzg3MDZjNzM2NTU5My5wbmc-/auto/auto/85/notrim/5da0cf2c3e29e9083fb7c74d763a9795.webp"
+      },
+      "melondrama": {
+        "name": "Dual Berettas | Melondrama",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9lbGl0ZV9jdV9lbGl0ZXNfYmV3YXJlX2xpZ2h0LmJhZDc5MDZlMGNjNTI4ODJiNTVhMDIxMTY2MzM1YWM3MzEwZmJiYWQucG5n/auto/auto/85/notrim/171523c75e59dad060997c8c8f4f616a.webp"
+      },
+      "rapidEyeMovement": {
+        "name": "FAMAS | Rapid Eye Movement",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9mYW1hc19nc19mYW1hc19yYXBpZF9leWVzX2xpZ2h0LmM1YTU4YzgwNGY4NGQ0MmU3ZjFlZTI1NzAyZjhkZTc5NjkxNGRlYjQucG5n/auto/auto/85/notrim/9dacf64cbec5816858a7b5a28fb32e2e.webp"
+      },
+      "starlightProtector": {
+        "name": "MP9 | Starlight Protector",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tcDlfZ3NfbXA5X3N0YXJsaWdodF9saWdodC44MzUyZjdmNDM0NDVlMTAwZTJiMDNlZDc3NGFhYWQ2MzcyNjc1YmUxLnBuZw--/auto/auto/85/notrim/4aa0302e930ef528a07185da60c1515b.webp"
+      },
+      "nightWish": {
+        "name": "AK-47 | Nightwish",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hazQ3X2N1X2FrNDdfbmlnaHR3aXNoX2xpZ2h0LjA4YTY1NjE1ZDdjZGYyZjhkNGQ2NTBmOTk5OWZjOTQxNjlmZjg3MjgucG5n/auto/auto/85/notrim/5c08a9a697a566343389a078253f7fe3.webp"
+      },
+      "rare":{
+        "name": "Knife",
+        "rarity": "★ Rare Special Items ★",
+        "photo": "https://cdn.csgoskins.gg/public/uih/misc/aHR0cHM6Ly9jc2dvc2tpbnMuZ2cvYnVpbGQvYXNzZXRzL3JhcmUtaXRlbS10eEVaV1Q1Ry5wbmc-/auto/128/85/notrim/1fddea1e3843c479d1cba4efad55306b.webp"
+      }
+    }
+  },
+  {
+    "name": "Kilowatt case",
+    "photo": "https://cdn.csgoskins.gg/public/uih/products/aHR0cHM6Ly9jb21tdW5pdHkuY2xvdWRmbGFyZS5zdGVhbXN0YXRpYy5jb20vZWNvbm9teS9pbWFnZS8tOWE4MWRsV0x3SjJVVUdjVnNfbnNWdHpkT0VkdFd3S0daWkxRSFR4RFo3STU2S1UwWnd3bzROVVg0b0ZKWkVITGJYVTVBMVBJWVFOcWhwT1NWLWZSUGFzdzhyc1VGSjVLQkZadjY2OEZGUXpuYUtkSUQ1RDZkMjNsZEhTd0tPbVpleUV6MjFYdlpaMTJMekU5dDZuaWdiZ3FrcGxOamloSklhTE1saHBGMVplUjVj/auto/auto/85/notrim/81772c019c1f101bdb24f8338ab90ee8.webp",
+    "loot": {
+      "milSpec1": {
+        "name": "Tec-9 | Slag",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl90ZWM5X3RlYzlfanVua3lhcmRfZW5naW5lZXJpbmdfbGlnaHQuMWFmZWJkOGYxMTcwZTM1YWZlMmM1NGNmNDU4ZWVhOTc2NmZjYmFmZS5wbmc-/auto/auto/85/notrim/82f4a6a67a36ce84a721155937bfb4f5.webp"
+      },
+      "milSpec2": {
+        "name": "XM1014 | Irezumi",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl94bTEwMTRfeG0xMDE0X2lyZXp1bWlfbGlnaHQuOTI4OTJkYjViYjUxMjFlNGIwMzY1MWE3MTQ3ZmU2MzFjZDdkZGY1Yy5wbmc-/auto/auto/85/notrim/cabc103d8748919d9eb46ba553edb804.webp"
+      },
+      "milSpec3": {
+        "name": "Nova | Dark Sigil",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9ub3ZhX25vdmFfZHJha2thcl9saWdodC5jNTk3YWRlZmIxNjdhZTY1OWI2NWY2MDQ3ZmY1ZWNiNGI4NjkyZTcwLnBuZw--/auto/auto/85/notrim/95dfd9713d7b807f70fb45464b04f66a.webp"
+      },
+      "milSpec4": {
+        "name": "UMP-45 | Motorized",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91bXA0NV91bXA0NV9hc3NlbWJsZWRfZW5naW5lX2xpZ2h0LjUwMDE4ZTM0OGVkYTVhZGVkMjZlMDIwYzJhZjY0NWFhMzI2NDg0NDUucG5n/auto/auto/85/notrim/e2fdc06d39d4ba6f62b126bb2ef48838.webp"
+      },
+      "milSpec5": {
+        "name": "Dual Berettas | Hideout",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9lbGl0ZV9kdWFsX2JlcmV0dGFzX2xldGhhbF9ncmluX2xpZ2h0LjgzZmM1MmQxMTFiMjEzZDlkZmQ0OTJlYzBiYzlhZTMxYjk0YjI3NjEucG5n/auto/auto/85/notrim/20cf8b2a4613b45c84f0798263932e85.webp"
+      },
+      "milSpec6": {
+        "name": "SSG 08 | Dezastre",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zc2cwOF9zc2cwOF9kZXphc3RyZV9saWdodC45MGVjMDU0NDFjMjNmYTQyNDdjN2JhN2RkZjg1ZGNhODhlNGY3MGRjLnBuZw--/auto/auto/85/notrim/bececc9244fa02c78d1a63d73a85932e.webp"
+      },
+      "milSpec7": {
+        "name": "MAC-10 | Light Box",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tYWMxMF9tYWMxMF9pbGx1c2lvbl9saWdodC5iZDVhY2JlMjNjMTZjY2E0NDJjMGIxYmJjNTAyOTViM2QxYTQxODNmLnBuZw--/auto/auto/85/notrim/2ba61e8eba73965404d3ee42cd4288b1.webp"
+      },
+      "rest1": {
+        "name": "MP7 | Just Smile",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tcDdfbXA3X2p1c3Rfc21pbGVfbGlnaHQuY2MyOGQ0ZjhlNjcxYWYwMjk1NWVmMjM5ZGIxM2FmNTIwZTU3NDNhYy5wbmc-/auto/auto/85/notrim/ce47121e8eb998f7fdaadfc9092951a6.webp"
+      },
+      "rest2": {
+        "name": "Five-SeveN | Hybrid",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9maXZlc2V2ZW5fZml2ZXNldmVuX2h5YnJpZF9saWdodC5mZDYzOTdmNWNmNzIxMjM1OWI1OTkxYzhhMmFiMGNhY2MwZWVjOGZkLnBuZw--/auto/auto/85/notrim/60d09608921053b39d7f029ba1ca4aa9.webp"
+      },
+      "rest3": {
+        "name": "M4A4 | Etch Lord",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX200YTRfc25ha2ViaXRlX2xpZ2h0LmU2OTM4NzRjOGY0YzlmZWJiOTY2NjRhNDU2NjkxZjBmN2NhODgyM2IucG5n/auto/auto/85/notrim/ee11a7fb94727861af621fc46438759e.webp"
+      },
+      "rest4": {
+        "name": "Sawed-Off | Analog Input",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zYXdlZG9mZl9zYXdlZG9mZl9nYW1lcl9saWdodC5kZDEyMWZjZTFiYmYyOTUzNjlmY2I5MTlkZGZiZjI1NWM2YmJiODQ2LnBuZw--/auto/auto/85/notrim/1adc9782f6ed29ae25299ec0e197bb8e.webp"
+      },
+      "rest5": {
+        "name": "Glock-18 | Block-18",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nbG9ja19nbG9ja19icmlja19tb25kcmlhbl9saWdodC5jNDRlNTRjN2MzMTQ0ZTRkMmY4NDYxOGU5OGYzZDhjN2I5ZWE2NmU3LnBuZw--/auto/auto/85/notrim/8e84c882db087c110887755a8d82ba9d.webp"
+      },
+      "class1": {
+        "name": "USP-S | Jawbreaker",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91c3Bfc2lsZW5jZXJfdXNwc19kb2dneV9saWdodC4wM2NkNGIxMWUzYzA4MjhiNjllZDM0YTYxN2YyNmRlMmFhYjBjMThiLnBuZw--/auto/auto/85/notrim/2c9cfcaf6c208396684ea8e1eabe2806.webp"
+      },
+      "class2": {
+        "name": "Zeus x27 | Olympus",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl90YXNlcl96ZXVzX3RodW5kZXJfZ29kX2xpZ2h0Ljc4Zjk3NzQ0NzkxNjViNzY2ZWYwZjYwYmFhOTAzMDI5YmIzZGVhYTUucG5n/auto/auto/85/notrim/cc66b941a2c958ebb7ac36673fab3765.webp"
+      },
+      "class3": {
+        "name": "M4A1-S | Black Lotus",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX3NpbGVuY2VyX200YTFzX2JsYWNrX2xvdHVzX2xpZ2h0LmU1ZmM3YzUwZWU4MTBlYmUxNDU0YmUzY2YxOWNjYzU4NjEzMjU3ODkucG5n/auto/auto/85/notrim/d65b371dd3eb10c546f6fd1cb7d53bec.webp"
+      },
+      "covert1": {
+        "name": "AWP | Chrome Cannon",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hd3BfYXdwX3RlbXBlcmVkX2xpZ2h0LmU2NTk5ODNmMDIxMTk1MDMzYzcxMmU2OWIxMjYzYzE3OTU2NDAwM2UucG5n/auto/auto/85/notrim/1e377e8a462d76f924e4b0bc94f59763.webp"
+      },
+      "covert2": {
+        "name": "AK-47 | Inheritance",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hazQ3X2FrX3BvcmNlbGFpbl9saWdodC5kYzRmNzZmYzM2NTE3NWU0YWM0MmQxNGVhODQ3MmQ3NmNmM2ZhNjYzLnBuZw--/auto/auto/85/notrim/66286698568f34224b86256f3790dbad.webp"
+      },
+      "rare":{
+        "name": "Knife",
+        "rarity": "★ Rare Special Items ★",
+        "photo": "https://cdn.csgoskins.gg/public/uih/misc/aHR0cHM6Ly9jc2dvc2tpbnMuZ2cvYnVpbGQvYXNzZXRzL3JhcmUtaXRlbS10eEVaV1Q1Ry5wbmc-/auto/128/85/notrim/1fddea1e3843c479d1cba4efad55306b.webp"
+      }
+    }
+  },
+  {
+    "name": "Gallery case",
+    "photo": "https://cdn.csgoskins.gg/public/uih/products/aHR0cHM6Ly9jb21tdW5pdHkuY2xvdWRmbGFyZS5zdGVhbXN0YXRpYy5jb20vZWNvbm9teS9pbWFnZS8tOWE4MWRsV0x3SjJVVUdjVnNfbnNWdHpkT0VkdFd3S0daWkxRSFR4RFo3STU2S1UwWnd3bzROVVg0b0ZKWkVITGJYVTVBMVBJWVFOcWhwT1NWLWZSUGFzdzhyc1VGSjVLQkZadjY2OEZGUTBuYVRLSmpoSHU5Mnl3b1NJbHFfM1p1N1Z4bTBDdU1Gd2ktMldwb2p3MEFQbnFCQnVZVzMxSlk2TE1saHBNTXp0WHdN/auto/auto/85/notrim/cf4025e435524c2301fa7aefb9ffa00a.webp",
+    "loot": {
+      "milSpec1": {
+        "name": "M249 | Hypnosis",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tMjQ5X20yNDlfaHlwbm9zaXNfbGlnaHQuZjUxMDA3ZTUzNmM0ZDNkYzVhYjY0YzRiZDE2MTZhMjBhM2Q0NmRmZC5wbmc-/auto/auto/85/notrim/35678c4cc9df277dc27fb6e7cd77f7e3.webp"
+      },
+      "milSpec2": {
+        "name": "MP5-SD | Statics",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tcDVzZF9tcDVfc3RhdGljc19ibHVlX2xpZ2h0LmQ1Y2FiMTcwYWVlNjI0M2M1YWE2YWY3ODMzN2U1Yjk0ZTM3OGUwYmMucG5n/auto/auto/85/notrim/3c710f1aadcef8b5759fb1bb4b09b4fd.webp"
+      },
+      "milSpec3": {
+        "name": "SCAR-20 | Trail Blazer",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zY2FyMjBfc2NhcjIwX2Z1cnlfdG9wb19saWdodC4yMzM4YWRkMWEwNDQ5OTQyZmRiMmZjNDQyY2NhZTM3NWM2ODM4NmVlLnBuZw--/auto/auto/85/notrim/edcecdefd27a192cff4ffa9b185f2831.webp"
+      },
+      "milSpec4": {
+        "name": "R8 Revolver | Tango",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9yZXZvbHZlcl9yOF9yb3Nlc19hbmRfZ3Vuc19saWdodC42YmZlMTM1Y2EwZTViYmE1MjYzNzllYjNiNWI1ZDBlMzc2NjczMDU4LnBuZw--/auto/auto/85/notrim/7478b086ecaac81c4e55abe75ff98555.webp"
+      },
+      "milSpec5": {
+        "name": "AUG | Luxe Trim",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hdWdfYXVnX3B1ZmZlcl9saWdodC44MjJmYjhkNTFmNzU1MjA5NTMzYzk4ZDhiZmVlMjhkNjBlMzJhOTRhLnBuZw--/auto/auto/85/notrim/47c78fd1874b2cd53f0e394cffa29927.webp"
+      },
+      "milSpec6": {
+        "name": "Desert Eagle | Calligraffiti",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9kZWFnbGVfZGVhZ2xlX2NhbGxpZ3JhZmZfbGlnaHQuNzhiZGI1ZDMwNTZhNmIyZjE2NDMzYzAyYmFmZGU1NWE3MTI1YjZmZC5wbmc-/auto/auto/85/notrim/4ee72eb2796f48729246bd2bfdbcb877.webp"
+      },
+      "milSpec7": {
+        "name": "USP-S | 027",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91c3Bfc2lsZW5jZXJfdXNwX2ZpZWxkX3NuYWtlX2xpZ2h0LjUwNzlkNjY4MTA4MTcxZjYzNjE4YmVjNzM5MGY0MWM4ZjFjNDMyODEucG5n/auto/auto/85/notrim/7dbf3aab1e0091f47dc8d3cf4c89f6e2.webp"
+      },
+      "rest1": {
+        "name": "P90 | Randy Rush",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9wOTBfcDkwX3JhbmR5X3J1c2hfbGlnaHQuYWM4MjI4OGIzNzcyODg2MDk1YzBhYzczMmMyNWEwNWJiOGVhMTA3NC5wbmc-/auto/auto/85/notrim/4ff322e31cbaedc7652b4886a57280e1.webp"
+      },
+      "rest2": {
+        "name": "Dual Berettas | Hydro Strike",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9lbGl0ZV9kdWFsX2VsaXRlX2h5ZHJvX3N0cmlrZV9saWdodC43YzkyZWZhMTU2N2UyNTEyODEwMTQ0NGE2ZDU0YWZjZGQzNzI4MTJjLnBuZw--/auto/auto/85/notrim/8c54ff9da0d0d0c7cf95119fe67ac973.webp"
+      },
+      "rest3": {
+        "name": "SSG 08 | Rapid Transit",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zc2cwOF9zc2cwOF90cmFuc2l0X3doaXRlX2xpZ2h0LmZjOGNlMWMyMGFhODMxMjM5ZTZlYjExMThhNTk3YmMxM2M2NTVkNjcucG5n/auto/auto/85/notrim/303620c75f2392e6beccb374684ac7a2.webp"
+      },
+      "rest4": {
+        "name": "MAC-10 | Saiba Oni",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tYWMxMF9tYWMxMF9vemFraV9saWdodC44YzIyZWY0MTczOGIyNGNiOTYxNWM4ZGFkZTA4M2ZlY2Y4NmMxNjczLnBuZw--/auto/auto/85/notrim/aeb588633a8a9dbf060d626bf8819d29.webp"
+      },
+      "rest5": {
+        "name": "M4A4 | Turbine",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX200YTRfZnVzaW9uX2xpZ2h0LmJmYmFmMjUzZWUzNjgyMzVjNGFlNmMxOTYwNDFjNWI4YmZlOGRlOTMucG5n/auto/auto/85/notrim/2c4f93d1d8fc736191acc1a474c36c72.webp"
+      },
+      "class1": {
+        "name": "UMP-45 | Neo-Noir",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91bXA0NV91bXA0NV9uZW9fbm9pcl9saWdodC5iZTczN2I0OTA5NTI5Y2M0ZjZkZTFlNDdmZTdhOGRiZjhkNjAyYWU5LnBuZw--/auto/auto/85/notrim/ef2843300cb3cab81ad29a38a5c8640b.webp"
+      },
+      "class2": {
+        "name": "P250 | Epicenter",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9wMjUwX3AyNTBfaW1wYWN0X2xpZ2h0LjZmNjdmZmRiZGIyNTc5NWExNWRkY2YyOTE1YjUzMWUyNjQ2YmUzNDgucG5n/auto/auto/85/notrim/6e394c1bdc0aec4a4f963dccc99d12a0.webp"
+      },
+      "class3": {
+        "name": "AK-47 | The Outsiders",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hazQ3X2FrNDdfdF9idXNfbGlnaHQuNDEzNzVhODdmYTc1YmVjZTBjYWZjODJkMjg3YjlmNGU2N2RlODgwYy5wbmc-/auto/auto/85/notrim/da9df53855bf3531288a5ac2712f25ba.webp"
+      },
+      "covert1": {
+        "name": "Glock-18 | Gold Toof",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nbG9ja19nbG9ja19jaG9tcGVyX2xpZ2h0LjM5YTViZGI0Njc2ZGJmODZlMGRjMmYxN2NkMjk0NzQ5NTYwNjE5ODMucG5n/auto/auto/85/notrim/38323f79aa105800ffbe5cdb5a898bc6.webp"
+      },
+      "covert2": {
+        "name": "M4A1-S | Vaporwave",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX3NpbGVuY2VyX200YTFzX3ZhcG9yd2F2ZV9saWdodC4wMjg3NTYyZGE3MTNlZTJkNTMxZTVkNjRjZGE5ZDEzMzc4ZmYxYjQ4LnBuZw--/auto/auto/85/notrim/453c63acef1260b9b9c0d8a15535161a.webp"
+      },
+      "rare":{
+        "name": "Knife",
+        "rarity": "★ Rare Special Items ★",
+        "photo": "https://cdn.csgoskins.gg/public/uih/misc/aHR0cHM6Ly9jc2dvc2tpbnMuZ2cvYnVpbGQvYXNzZXRzL3JhcmUtaXRlbS10eEVaV1Q1Ry5wbmc-/auto/128/85/notrim/1fddea1e3843c479d1cba4efad55306b.webp"
+      }
+    }
+  },
+  {
+    "name": "Operation Bravo Case",
+    "photo": "https://cdn.csgoskins.gg/public/uih/products/aHR0cHM6Ly9jb21tdW5pdHkuY2xvdWRmbGFyZS5zdGVhbXN0YXRpYy5jb20vZWNvbm9teS9pbWFnZS8tOWE4MWRsV0x3SjJVVUdjVnNfbnNWdHpkT0VkdFd3S0daWkxRSFR4RFo3STU2S1UwWnd3bzROVVg0b0ZKWkVITGJYVTVBMVBJWVFOcWhwT1NWLWZSUGFzdzhyc1hFMXhOd1ZEdjdXckZBNXBuYWJOSkd3U3VOM2d4dG5hd0tPbE1PNkh6emhRdWNBbTB1dkZvNG4yaXczaF9VTS1abWlsSk5lTE1saHBqZmp4RW9F/auto/auto/85/notrim/34bfb3573a6e9e7e5b52b9bcdbfa96dd.webp",
+    "loot": {
+      "milSpec1": {
+        "name": "SG 553 | Wave Spray",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zZzU1Nl9zcF9zcHJheV93YXZlc19icmF2b19saWdodC4zMDFjMDg5ZTFhZmZjOTBiZmRjODZkN2Y5ZTEwM2U0OWZmYThlMmI1LnBuZw--/auto/auto/85/notrim/58862d24ee4454d5062be107b8aeb116.webp"
+      },
+      "milSpec2": {
+        "name": "Galil AR | Shattered",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nYWxpbGFyX2h5X2NydW1wbGVfYnJhdm9fbGlnaHQuMjBmYWI1OWFmNjgwYmI2MjAzYjExMTM2NjRlZjA5MTM2MDg1OGEwNC5wbmc-/auto/auto/85/notrim/ad5084005f3c2b31082f2ef2ccbd224c.webp"
+      },
+      "milSpec3": {
+        "name": "Dual Berettas | Black Limba",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9lbGl0ZV9jdV9zZWFzb25fZWxpdGVzX2JyYXZvX2xpZ2h0Ljk5MmFhM2VkMDI2NjllZTZkNjJjMzc3ZTU5YmRmZmQ2OWI4ZjE1MGIucG5n/auto/auto/85/notrim/77c547e6567d2b45c4e9b2468a4702a8.webp"
+      },
+      "milSpec4": {
+        "name": "G3SG1 | Demeter",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nM3NnMV9oeV9ibHVlcG9seWdvbl9icmF2b19saWdodC44NDQ5YmE5YWZjYjk3ZTYwY2U3ODZlMGI3MjlhZTJkZTdjZDQ3MTU5LnBuZw--/auto/auto/85/notrim/4e24d9a2ecf1ea271fd6fdfb34e69db8.webp"
+      },
+      "milSpec5": {
+        "name": "Nova | Tempest",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9ub3ZhX2h5X3NlYXNpZGVfYnJhdm9fbGlnaHQuNjI1MWIwMDVlYTQ3NWUyMGNkODMyNmRhMTFiYjM0MTZlMzZlYTQ5YS5wbmc-/auto/auto/85/notrim/f9dc64a6822e0b8579af670629d3ab78.webp"
+      },
+      "milSpec6": {
+        "name": "UMP-45 | Bone Pile",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91bXA0NV9zcF9za3VsbF9kaWFncmFtX2JyYXZvX2xpZ2h0LjUzZjk3N2MyN2I0ZjlkMWIxNWRhODgwOGQ4MGQ4ZDBmYTdiYmI1NjAucG5n/auto/auto/85/notrim/e3ab906cb57684aed3610df7696f1212.webp"
+      },
+      "rest1": {
+        "name": "M4A4 | Zirka",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX3NwX3N0YXJfYnJhdm9fbGlnaHQuYjMyNzczOTA4NzU1OTZlNjllNzk5ZGY2ZTU0N2U1YTRmNTQ3ZTc3My5wbmc-/auto/auto/85/notrim/9d85a9dedecd44445ec8d01bbe73cd3f.webp"
+      },
+      "rest2": {
+        "name": "USP-S | Overgrowth",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91c3Bfc2lsZW5jZXJfaHlfc2llZ2VfYnJhdm9fbGlnaHQuMDY3OThmMGI4NTc1MjVhNWJjMzg4N2ExODRiYjJhNWYzMzJhNmM1Yi5wbmc-/auto/auto/85/notrim/071aa3e3450d8ecc6d845cb9a58474f6.webp"
+      },
+      "rest3": {
+        "name": "MAC-10 | Graven",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tYWMxMF9hcV9ldGNoZWRfbWFjMTBfYnJhdm9fbGlnaHQuNTA5Mzg2NjJkMTUzM2UzNGRlODk0Mjc5MjcwNmNkMTBlMzAyNTI4OC5wbmc-/auto/auto/85/notrim/12a0da54ac7f1bf15a126849415ee2a0.webp"
+      },
+      "rest4": {
+        "name": "M4A1-S | Bright Water",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX3NpbGVuY2VyX2h5X29jZWFuX2JyYXZvX2xpZ2h0LjBiMmE3NDMyNjE4YzhkOWFlYTlmN2MyY2YxMzc2YzhlMzczZmY4ZDQucG5n/auto/auto/85/notrim/e78c8f48f1351807369ace4998eb6c26.webp"
+      },
+      "class1": {
+        "name": "P2000 | Ocean Foam",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9oa3AyMDAwX2FtX29zc2lmeV9ibHVlX3AyMDAwX2JyYXZvX2xpZ2h0LmE5NWM0YjVjZjY2NmEzZWZhNzVmMTlmZTIxOWI4M2ZjMzBkYzg0YjMucG5n/auto/auto/85/notrim/1f6592b8cdebd455dc09985f0a4d1416.webp"
+      },
+      "class2": {
+        "name": "P90 | Emerald Dragon",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9wOTBfY3VfZHJhZ29uX3A5MF9icmF2b19saWdodC41MTk4YTc2NDc4M2M3OWNkYmMzMzljODA1NDViNjYyNTA4NTJlYzMyLnBuZw--/auto/auto/85/notrim/b025103b5b2d4d3dd6fdecf9e42d1dfc.webp"
+      },
+      "class3": {
+        "name": "AWP | Graphite",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hd3BfYW1fY3J1bXBsZV9icmF2b19saWdodC5mNWVjYTJiNDJiNjBjNzQ0NWM0MmRkOWZmYjdjYjEwMzQ5MzlmNjVmLnBuZw--/auto/auto/85/notrim/215e5f3636c1531020654672b8153859.webp"
+      },
+      "covert1": {
+        "name": "AK-47 | Fire Serpent",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hazQ3X2N1X2ZpcmVzZXJwZW50X2FrNDdfYnJhdm9fbGlnaHQuYzU3YTA4MmRlZjAyNjYyY2ZkYjEzYzU0M2UwZDUwZGZkM2Q2ZGE0ZC5wbmc-/auto/auto/85/notrim/816d04693ab5653bcc656e5bf0562227.webp"
+      },
+      "covert2": {
+        "name": "Desert Eagle | Golden Koi",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9kZWFnbGVfYW1fc2NhbGVzX2JyYXZvX2xpZ2h0LjZkMGFiZWE5MTcwMTE2ZGYzYWU0MmJlMjIyMWM0NDY5ZDM4ZmYwMGQucG5n/auto/auto/85/notrim/94aca31109fa537231bd6614725f5dd4.webp"
+      },
+      "rare":{
+        "name": "Knife",
+        "rarity": "★ Rare Special Items ★",
+        "photo": "https://cdn.csgoskins.gg/public/uih/misc/aHR0cHM6Ly9jc2dvc2tpbnMuZ2cvYnVpbGQvYXNzZXRzL3JhcmUtaXRlbS10eEVaV1Q1Ry5wbmc-/auto/128/85/notrim/1fddea1e3843c479d1cba4efad55306b.webp"
+      }
+    }
+  },
+  {
+    "name": "CS:GO Weapon Case",
+    "photo": "https://cdn.csgoskins.gg/public/uih/products/aHR0cHM6Ly9jb21tdW5pdHkuY2xvdWRmbGFyZS5zdGVhbXN0YXRpYy5jb20vZWNvbm9teS9pbWFnZS8tOWE4MWRsV0x3SjJVVUdjVnNfbnNWdHpkT0VkdFd3S0daWkxRSFR4RFo3STU2S1UwWnd3bzROVVg0b0ZKWkVITGJYVTVBMVBJWVFOcWhwT1NWLWZSUGFzdzhyc1JWeDRNd0ZvNV9UM2VBUTNpNkRNSVcwWDdvaml3b0hheDZlZ01PS0d4ajRHNjhOejMtakNwNGl0akZXeC1rdHFmU210Y3dxVng2c1Q-/auto/auto/85/notrim/6db1232045ac83980f27bed95705f967.webp",
+    "loot": {
+      "milSpec1": {
+        "name": "MP7 | Skulls",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tcDdfaHlfc2t1bGxzX2xpZ2h0LjVjYmJkMDI5ZGYzZDY3NmZmZTM0N2E0N2JkODc1MjgxMjc3MDBmOTAucG5n/auto/auto/85/notrim/644b2b252cdf7c9d681965ee7553a1b1.webp"
+      },
+      "milSpec2": {
+        "name": "SG 553 | Ultraviolet",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9zZzU1Nl9zb19wdXJwbGVfbGlnaHQuYzMzODYyYzkxOGQ4NGZmNTAwNDE1NWU2MmQ4ODQ2ZDMxZTMzMDhhMS5wbmc-/auto/auto/85/notrim/adba0de5eda0e04f857c137bd4cb88f8.webp"
+      },
+      "milSpec3": {
+        "name": "AUG | Wings",
+        "rarity": "Mil-Spec",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hdWdfaHlfZmVhdGhlcnNfYXVnX2xpZ2h0LjQyN2EzMzlkYTc1MzU0OWMwMzA2Mzk3ZTY3NmQ2YmRmZTAwMmI3MGMucG5n/auto/auto/85/notrim/1d8c1432c5efdbe1243ada47b0891fb0.webp"
+      },
+      "rest1": {
+        "name": "USP-S | Dark Water",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl91c3Bfc2lsZW5jZXJfYW1femVicmFfZGFya19saWdodC5mYmRkMWJjMWViNmNmOWNmYzdkZTE5YWNmZjc2YjYwZWFjYWExYzhlLnBuZw--/auto/auto/85/notrim/60b0ac168a7199430c43412da21b83fa.webp"
+      },
+      "rest2": {
+        "name": "M4A1-S | Dark Water",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9tNGExX3NpbGVuY2VyX2FtX3plYnJhX2RhcmtfbGlnaHQuNGMwNzFjYjE0ZWY3NjQ5Y2Q4YzI0MDVhN2QxODI4NGMxYTk1NTYzYi5wbmc-/auto/auto/85/notrim/16a6beda414c67834fd06f5b7de7d1ad.webp"
+      },
+      "rest3": {
+        "name": "Glock-18 | Dragon Tattoo",
+        "rarity": "Restricted",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9nbG9ja19hbV9kcmFnb25fZ2xvY2tfbGlnaHQuMjM2YjU4MGVkZjkwMWVhODc5YTAyYjhlYzQzYWI5YzA5MDBhZmZkMy5wbmc-/auto/auto/85/notrim/709be5a02993a2ff20ca1101fe45aca2.webp"
+      },
+      "class1": {
+        "name": "Desert Eagle | Hypnotic",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9kZWFnbGVfYWFfdmVydGlnb19saWdodC5kNTJmMjdmMDQyMGNkYTQ1ZDMzNTM1ZGExMDA0NjI1ZDU3YTlkYzE1LnBuZw--/auto/auto/85/notrim/86b526041421c2c809df880fc84b6746.webp"
+      },
+      "class2": {
+        "name": "AK-47 | Case Hardened",
+        "rarity": "Classified",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hazQ3X2FxX29pbGVkX2xpZ2h0LmNkMjQxYjIzZjRmYWMyNGQ0NTQyODExZDU1YjIzMTJiMDEzYWY5MTkucG5n/auto/auto/85/notrim/6cd121358f75fbc0574f6b80ffd79d28.webp"
+      },
+      "covert1": {
+        "name": "AWP | Lightning Strike",
+        "rarity": "Covert",
+        "photo": "https://cdn.csgoskins.gg/public/uih/items/aHR0cHM6Ly9jZG4uY3Nnb3NraW5zLmdnL3B1YmxpYy9pbWFnZXMvYnVja2V0cy9lY29uL2RlZmF1bHRfZ2VuZXJhdGVkL3dlYXBvbl9hd3BfYW1fbGlnaHRuaW5nX2F3cF9saWdodC5lZjU0ODcxOTU5YjY1NjE0MWIyNDY5MTI1NmRiYjFkNTQ5YjFlZmJhLnBuZw--/auto/auto/85/notrim/12c1e08907cf2fb660228a4ad6b33c80.webp"
+      },
+      "rare":{
+        "name": "Knife",
+        "rarity": "★ Rare Special Items ★",
+        "photo": "https://cdn.csgoskins.gg/public/uih/misc/aHR0cHM6Ly9jc2dvc2tpbnMuZ2cvYnVpbGQvYXNzZXRzL3JhcmUtaXRlbS10eEVaV1Q1Ry5wbmc-/auto/128/85/notrim/1fddea1e3843c479d1cba4efad55306b.webp"
+      }
+    }
+  }
+]
