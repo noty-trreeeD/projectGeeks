@@ -107,6 +107,11 @@ const converter = (element) => {
                 somInput.value = (element.value * data.eur).toFixed(2);
                 usdInput.value = (element.value / data.usdEur).toFixed(2);
             }
+            if (element.value === '') {
+                somInput.value = '';
+                usdInput.value = '';
+                eurInput.value = '';
+            }
         }
     }
 }
