@@ -641,3 +641,45 @@
 .btn_min:hover {
     animation: none;
 }
+
+/* cyber sport block */
+
+.cyber-sport {
+    width: 100%;
+    height: 100vh;
+}
+
+.cyber-sport-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 360px;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 10px;
+    z-index: 10;
+}
+.cyber-sport-info img {
+    width: 110px;
+    height: 130px;
+}
+
+.cyber-sport-info h2 {
+    font-family: Stratum2, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #00000055;
+    line-height: 105%;
+    text-align: left;
+}
+
+.cyber-sport-info h3 {
+    color: #fff;
+    font-family: "Stratum2", "Noto Sans", sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    text-shadow: 2px 2px #00000055;
+}
