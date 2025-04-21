@@ -488,7 +488,7 @@
     margin-top: 10px;
 }
 
-/* Cases Section */
+/* Cases */
 
 .cases {
     padding: 80px 0;
@@ -624,7 +624,6 @@
     box-shadow: 0 5px 15px rgba(247, 147, 26, 0.4);
 }
 
-/* Анимация пульсации для кнопки */
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
