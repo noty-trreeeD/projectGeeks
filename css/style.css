@@ -1,5 +1,13 @@
 /* HEADER */
 
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #f7931a;
+    text-shadow: 0 0 10px rgba(247, 147, 26, 0.5);
+}
+
 .blur-container {
     display: flex;
     flex-direction: column;
@@ -588,11 +596,11 @@
     flex-grow: 1;
 }
 
-.mil-spec { background-color: #4b69ff; }
-.restricted { background-color: #8847ff; }
-.classified { background-color: #d32ce6; }
-.covert { background-color: #eb4b4b; }
-.rare { background-color: #ffd700; }
+.ms { background-color: #4b69ff; }
+.r { background-color: #8847ff; }
+.cf { background-color: #d32ce6; }
+.c { background-color: #eb4b4b; }
+.rr { background-color: #ffd700; }
 
 .case-glow {
     position: absolute;
@@ -658,7 +666,7 @@
     width: 100%;
     max-width: 700px;
     margin: 0 10px;
-    z-index: 10;
+    z-index: 1;
 }
 .cyber-sport-info img {
     width: 110px;
@@ -682,4 +690,48 @@
     font-size: 24px;
     text-align: justify;
     text-shadow: 2px 2px #00000055;
+}
+
+/* video */
+
+.main_block_video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main_block_video::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.main-block-video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.cyber-sport-video {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+
 }

@@ -12,36 +12,29 @@ const elements = {
     itemImage: document.getElementById("itemImage"),
     itemName: document.getElementById("itemName"),
     itemRarity: document.getElementById("itemRarity"),
-    closeButtons: document.querySelectorAll(".close-modal, .close-btn"),
+    closeButtons: document.querySelectorAll(".close-modal, .close-button"),
     caseDisplay: document.querySelector(".case-display")
 };
 
-function loadCases() {
-    showLoader(true);
-    fetch("../data/cases.json")
-        .then(response => {
-            if (!response.ok) throw new Error("Network response was not ok");
-            return response.json();
-        })
-        .then(data => {
-            cases = data;
-            cases.forEach(applyDropChances);
-            renderCaseList();
-        })
-        .catch(error => {
-            console.error("Error loading cases:", error);
-            showError("Failed to load cases. Please try again later.");
-        })
-        .finally(() => showLoader(false));
+async function loadCases() {
+    try {
+        const response = await fetch("../data/cases.json");
+        const data = await response.json();
+        cases = data;
+        cases.forEach(applyDropChances);
+        renderCaseList();
+    } catch (error) {
+        console.error(error);
+    }
 }
 
 function applyDropChances(csCase) {
     const rarityChances = {
-        "Mil-Spec": 79.92,
-        "Restricted": 15.98,
-        "Classified": 3.2,
-        "Covert": 0.64,
-        "★ Rare Special Items ★": 0.26
+        "Mil-Spec": 30,
+        "Restricted": 30,
+        "Classified": 20,
+        "Covert": 12,
+        "★ Rare Special Items ★": 8
     };
 
     for (const key in csCase.loot) {
@@ -56,7 +49,7 @@ function renderCaseList() {
                 <h3>${c.name}</h3>
                 <img src="${c.photo}" alt="${c.name}" loading="lazy">
             </div>
-            <button class="btn open-case-btn" onclick="openCaseModal(${i})">Открыть</button>
+            <button class="button open-case-button" onclick="openCaseModal(${i})">Открыть</button>
         </div>
     `).join("");
 }
@@ -70,7 +63,6 @@ window.openCaseModal = function(index) {
     elements.caseModal.classList.add("active");
 
     fillCaseItems();
-
     addCasePointer();
 };
 
@@ -105,17 +97,13 @@ elements.openBtn.addEventListener("click", function() {
     isCaseOpening = true;
 
     const itemWidth = 200;
-    const visibleItems = 5;
-    const centerOffset = 2;
-
     const items = Object.values(selectedCase.loot);
     const winningItemData = getRandomItemByChance(items);
-
     const caseItems = document.querySelectorAll(".case-item");
 
     let winningIndex = -1;
     caseItems.forEach((item, index) => {
-        if (item.querySelector("img").src.includes(winningItemData.photo)) {
+        if (item.querySelector("img").src.endsWith(winningItemData.photo)) {
             winningIndex = index;
         }
     });
@@ -125,33 +113,19 @@ elements.openBtn.addEventListener("click", function() {
     const containerWidth = elements.caseDisplay.offsetWidth;
     const targetPosition = (containerWidth / 2) - (itemWidth / 2) - (winningIndex * itemWidth);
 
-    elements.caseItemsContainer.style.transition = "none";
-    elements.caseItemsContainer.style.transform = "translateX(0)";
+    elements.caseItemsContainer.style.transition = "transform 4s cubic-bezier(0.08, 0.82, 0.17, 1)";
+    elements.caseItemsContainer.style.transform = `translateX(${targetPosition}px)`;
 
     setTimeout(() => {
-        elements.caseItemsContainer.style.transition = "transform 4s cubic-bezier(0.08, 0.82, 0.17, 1)";
-        elements.caseItemsContainer.style.transform = `translateX(${targetPosition}px)`;
-
-        setTimeout(() => {
-            elements.caseItemsContainer.style.transitionTimingFunction = "cubic-bezier(0.1, 0.2, 0.1, 1)";
-        }, 3500);
-
-        setTimeout(() => {
-            const winningItemElement = caseItems[winningIndex];
-            winningItemElement.classList.add("active");
-
-            showWinningItem(winningItemElement);
-
-            isCaseOpening = false;
-        }, 4100);
-    }, 10);
+        const winningItemElement = caseItems[winningIndex];
+        showWinningItem(winningItemElement);
+        isCaseOpening = false;
+    }, 4100);
 });
 
 function showWinningItem(winningItem) {
-    winningItem.classList.add("active");
-
     const img = winningItem.querySelector("img").src;
-    const item = Object.values(selectedCase.loot).find(i => i.photo === img);
+    const item = Object.values(selectedCase.loot).find(i => img.endsWith(i.photo));
     const rarityClass = getRarityClass(item.rarity);
 
     elements.itemImage.src = img;
@@ -179,9 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function getRarityClass(rarity) {
-    return (rarity || "").toLowerCase()
-        .replace(/\s/g, "-")
-        .replace(/[★]/g, "");
+    return (rarity || "").toLowerCase().replace(/\s/g, "-").replace(/[★]/g, "");
 }
 
 function getRandomItemByChance(items) {
@@ -189,17 +161,4 @@ function getRandomItemByChance(items) {
     let rand = Math.random() * total;
     for (let item of items) if ((rand -= item.chance) <= 0) return item;
     return items[items.length - 1];
-}
-
-function showLoader(show) {
-    const loader = document.getElementById("loader") || createLoader();
-    loader.style.display = show ? "flex" : "none";
-}
-
-function createLoader() {
-    const loader = document.createElement("div");
-    loader.id = "loader";
-    loader.innerHTML = `<div class="loader-spinner"></div>`;
-    document.body.appendChild(loader);
-    return loader;
 }

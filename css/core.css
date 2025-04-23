@@ -11,7 +11,23 @@
 
 body {
     font-family: "Britannic Bold", sans-serif;
-    background: #000;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/cs2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
 }
 
 .btn {

@@ -16,8 +16,6 @@ phoneButton.onclick = () => {
     }
 }
 
-// Асинхронность
-
 // Tab slider
 
 const tabContentBlocks = document.querySelectorAll('.tab_content_block');
@@ -27,7 +25,6 @@ const tabsParent = document.querySelector('.tab_content_items');
 const hideTabs = () => {
     tabContentBlocks.forEach(block => {
         block.style.display = 'none';
-        console.log('ok')
     })
     tabs.forEach(tab => {
         tab.classList.remove('tab_content_item_active');
@@ -86,87 +83,118 @@ const somInput = document.querySelector('#som');
 const eurInput = document.querySelector('#eur');
 
 const converter = (element) => {
-    element.oninput = () => {
-        const xhrConverterRequest = new XMLHttpRequest();
-        xhrConverterRequest.open('GET', '../data/converter.json');
-        xhrConverterRequest.setRequestHeader('Content-Type', 'application/json');
-        xhrConverterRequest.send();
+    element.oninput = async () => {
+        try {
+            const response = await fetch('../data/converter.json');
+            const data = await response.json();
 
-        xhrConverterRequest.onload = () => {
-            const data = JSON.parse(xhrConverterRequest.response);
-            console.log(data);
-            if (element.id === 'som') {
-                usdInput.value = (element.value / data.usd).toFixed(2);
-                eurInput.value = (element.value / data.eur).toFixed(2);
-            }
-            if (element.id === 'usd') {
-                somInput.value = (element.value * data.usd).toFixed(2);
-                eurInput.value = (element.value * data.usdEur).toFixed(2);
-            }
-            if (element.id === 'eur') {
-                somInput.value = (element.value * data.eur).toFixed(2);
-                usdInput.value = (element.value / data.usdEur).toFixed(2);
-            }
-            if (element.value === '') {
+            const value = parseFloat(element.value);
+            if (isNaN(value)) {
                 somInput.value = '';
                 usdInput.value = '';
                 eurInput.value = '';
+                return;
             }
-        }
-    }
-}
 
-converter(somInput)
-converter(usdInput)
-converter(eurInput)
+            if (element.id === 'som') {
+                usdInput.value = (value / data.usd).toFixed(2);
+                eurInput.value = (value / data.eur).toFixed(2);
+            }
+            if (element.id === 'usd') {
+                somInput.value = (value * data.usd).toFixed(2);
+                eurInput.value = (value * data.usdEur).toFixed(2);
+            }
+            if (element.id === 'eur') {
+                somInput.value = (value * data.eur).toFixed(2);
+                usdInput.value = (value / data.usdEur).toFixed(2);
+            }
+        } catch (e) {
+            console.log(e);
+        }
+    };
+};
+
+converter(somInput);
+converter(usdInput);
+converter(eurInput);
 
 // Card switcher
 
 const btnNext = document.querySelector('#btn-next');
 const btnPrev = document.querySelector('#btn-prev');
-const cardBlock = document.querySelector('.card');
+const cardBlock = document.querySelector('.card-lessons');
 
 let cardID = 1
 
-const fetchTodos = () => {
-    fetch(`https://jsonplaceholder.typicode.com/todos/${cardID}`).then((response) => {
-        response.json().then((data) => {
-            const {title, completed, id} = data;
-            cardBlock.innerHTML = `
-                <p>${title}</p>
-                <p style="color: ${completed ? 'green' : 'red'}">
-                    ${completed}
-                </p>
-                <p>${id}</p>
-            `
-        })
-    })
-}
-
-fetchTodos();
-
-btnNext.onclick = (event) => {
-    cardID++
-    if (cardID !== 201) {
-        fetchTodos();
-    } else {
-        cardID = 1;
-        fetchTodos();
+const fetchTodos = async () => {
+    try {
+        const responseTodos = await fetch(`https://jsonplaceholder.typicode.com/todos/${cardID}`)
+        const {title, completed, id} = await responseTodos.json()
+        cardBlock.innerHTML = `
+        <p>${title}</p>
+        <p style="color: ${completed ? 'green' : 'red'}">
+            ${completed}
+        </p>
+        <p>${id}</p>
+    `
+    } catch (e) {
+        console.log(e)
     }
 }
 
-btnPrev.onclick = (event) => {
-    cardID--;
-    if (cardID !== 0) {
-        fetchTodos();
-    } else {
-        cardID = 200;
-        fetchTodos();
+fetchTodos()
+
+btnNext.onclick = () => {
+    cardID = cardID < 200 ? cardID + 1 : 1;
+    fetchTodos();
+}
+
+btnPrev.onclick = () => {
+    cardID = cardID > 1 ? cardID - 1 : 200;
+    fetchTodos();
+}
+
+const postsFetch = async () => {
+    try {
+        const response = await fetch(`https://jsonplaceholder.typicode.com/posts`)
+        const posts = await response.json();
+        console.log(posts);
+    } catch (e) {
+        console.log(e)
     }
 }
 
-fetch(`https://jsonplaceholder.typicode.com/posts`).then((response) => {
-    response.json().then((data) => {
-        console.log(data);
-    })
-})
+postsFetch();
+
+// weather
+
+const searchInput = document.querySelector('.cityName')
+const searchBtn = document.querySelector('#search');
+const cityName = document.querySelector('.city');
+const cityTemp = document.querySelector('.temp');
+
+const API_URL = 'http://api.openweathermap.org/data/2.5/weather';
+const API_KEY = 'e417df62e04d3b1b111abeab19cea714'
+
+searchBtn.onclick = async () => {
+    try {
+        if (searchInput.value !== '') {
+            const responseWeather = await fetch(`${API_URL}?appid=${API_KEY}&q=${searchInput.value}&units=metric&lang=ru`)
+            const dataWeather = await responseWeather.json();
+            if (dataWeather.cod === '404') {
+                cityName.innerHTML = 'Введите корректное название';
+                cityTemp.innerHTML = '';
+            } else {
+                cityName.innerHTML = dataWeather.name;
+                cityTemp.innerHTML = Math.round(dataWeather.main.temp) + 'ºC';
+            }
+            searchInput.value = ''
+        } else {
+            cityName.innerHTML = 'Введите название города';
+            cityTemp.innerHTML = '';
+        }
+    } catch (error) {
+        console.log(error);
+    }
+
+}

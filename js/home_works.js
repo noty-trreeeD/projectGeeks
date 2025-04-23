@@ -112,57 +112,62 @@ resetBtn.addEventListener('click', resetTimer);
 // Characters
 
 const defaultPhoto = '../images/default.png';
-const xhrAgents = new XMLHttpRequest();
-xhrAgents.open('GET', '../data/characters.json');
-xhrAgents.setRequestHeader('Content-type', 'application/json');
-xhrAgents.send();
+const list = document.querySelector('.characters-list');
 
-xhrAgents.onload = () => {
-    const data = JSON.parse(xhrAgents.response);
-    const list = document.querySelector('.characters-list');
+const agentsFetch = async () => {
+    try {
+        const response = await fetch(`../data/characters.json`)
+        const data = await response.json();
 
-    data.forEach(character => {
-        const card = document.createElement('div');
-        card.classList.add('character-card');
+        data.forEach(character => {
+            const card = document.createElement('div');
+            card.classList.add('character-card');
 
-        const photoWrapper = document.createElement('div');
-        photoWrapper.classList.add('character-photo');
+            const photoWrapper = document.createElement('div');
+            photoWrapper.classList.add('character-photo');
 
-        const img = document.createElement('img');
-        img.src = character.photo || defaultPhoto;
-        photoWrapper.appendChild(img);
+            const img = document.createElement('img');
+            img.src = character.photo || defaultPhoto;
+            photoWrapper.appendChild(img);
 
-        const name = document.createElement('h3');
-        name.textContent = character.name || 'Без имени';
+            const name = document.createElement('h3');
+            name.textContent = character.name || 'Без имени';
 
-        const collection = document.createElement('p');
-        collection.textContent = `Collection: ${character.collection}`;
+            const collection = document.createElement('p');
+            collection.textContent = `Collection: ${character.collection}`;
 
-        const rarity = document.createElement('p');
-        rarity.textContent = `Rarity: ${character.rarity}`;
+            const rarity = document.createElement('p');
+            rarity.textContent = `Rarity: ${character.rarity}`;
 
-        const operation = document.createElement('p');
-        operation.textContent = `Operation: ${character.operation}`;
+            const operation = document.createElement('p');
+            operation.textContent = `Operation: ${character.operation}`;
 
-        card.appendChild(photoWrapper);
-        card.appendChild(name);
-        card.appendChild(collection);
-        card.appendChild(rarity);
-        card.appendChild(operation);
+            card.appendChild(photoWrapper);
+            card.appendChild(name);
+            card.appendChild(collection);
+            card.appendChild(rarity);
+            card.appendChild(operation);
 
-        list.appendChild(card);
-    });
-};
+            list.appendChild(card);
+        });
+    } catch (error) {
+        console.log(error);
+    }
+}
 
+agentsFetch();
 
 // any json
 
-const xhr = new XMLHttpRequest();
-xhr.open('GET', '../data/any.json');
-xhr.setRequestHeader('Content-type', 'application/json');
-xhr.send();
+const anyFetch = async () => {
+    try {
+        const response = await fetch('../data/any.json');
+        const json = await response.json();
+        console.log(json);
+    } catch (error) {
+        console.error(error);
+    }
+}
 
-xhr.onload = () => {
-    const weapons = JSON.parse(xhr.response);
-    console.log(weapons);
-};
+anyFetch();
+
