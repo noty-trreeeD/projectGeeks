@@ -39,7 +39,7 @@
 
     <div class="gmail_block">
         <div class="container">
-            <h3 class="title">Homework 1 (part 1)</h3>
+            <h3 class="title">Регистрация на super sigma alpha beta CS3</h3>
             <div class="inner_gmail_block">
                 <div class="form_gmail">
                     <label for="gmail_input"></label>
@@ -53,29 +53,35 @@
 
     <div class="move_block">
         <div class="container">
-            <h3 class="title">Homework 1 (part 2)</h3>
             <div class="inner_move_block">
                 <div class="parent_block">
-                    <div class="child_block"></div>
+                    <div class="child_block">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="stopwatch">
+    <div class="cs2-bomb">
         <div class="container">
-            <h3 class="title">Homework 2 </h3>
-            <div class="time">
-                <div class="time_block">
-                    <div class="interval" id="seconds">0</div>
-                </div>
+            <h3 class="title">Defuse the bomb</h3>
+            <div class="bomb-frame">
+                <img class="bomb-img" src="../images/bomb.png" alt="Bomb">
             </div>
-            <div class="time_buttons">
+            <div class="bomb-controls">
                 <button class="btn" id="start">Start</button>
-                <button class="btn" id="stop">Stop</button>
-                <button class="btn" id="reset">Reset</button>
+                <button class="btn" id="restart">Reset</button>
+                <button class="btn" id="defuse">Hold to Defuse</button>
             </div>
+            <div class="defuse-progress">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="bomb-message" id="message"></div>
         </div>
+
+        <audio id="beep" src="../sounds/bombsound.mp3"></audio>
+        <audio id="success" src="../sounds/defused.mp3"></audio>
+        <audio id="defuse-start" src="../sounds/defuse_start.mp3"></audio>
     </div>
 
     <div class="characters">
@@ -87,9 +93,9 @@
 
     <div class="footer">
         <div class="container">
-            <a href="https://www.instagram.com/nurdinbuy/" target="_blank">
+            <a href="https://www.youtube.com/watch?v=qnVbe1tP5c0" target="_blank">
                 <div class="inner_footer">
-                    <h2>Made by NurDinBuy</h2>
+                    <h2>DON'T CLICK ME!</h2>
                 </div>
             </a>
         </div>
@@ -100,15 +106,24 @@
     <div class="modal_dialog">
         <div class="modal_content">
             <form action="#">
-                <div class="modal_close">&times;</div>
-                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <div class="modal_close">&#10006;</div>
+                <div class="modal_title">Оплата через банковскую карту для скинов</div>
+                <div class="modal_text">
+                    <p>Чтобы получить эксклюзивные скины для CS2, пожалуйста, введите свои данные ниже. Мы обещаем, что это не скам... правда!</p>
+                </div>
                 <label>
-                    <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                    <input required placeholder="Номер вашей карты" name="card_number" type="text" class="modal_input">
                 </label>
                 <label>
-                    <input required placeholder="Ваш номер телефона" name="phone" class="modal_input">
+                    <input required placeholder="Дата истечения" name="expiry_date" type="text" class="modal_input">
                 </label>
-                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                <label>
+                    <input required placeholder="CVV код" name="cvv" type="text" class="modal_input">
+                </label>
+                <button class="btn btn_dark btn_min">Оплатить</button>
+                <div class="modal_warning">
+                    <p>Мы не гарантируем, что скины не исчезнут, но мы уверены, что карта будет использоваться только для благих целей! 😊</p>
+                </div>
             </form>
         </div>
     </div>

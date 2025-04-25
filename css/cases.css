@@ -1,3 +1,37 @@
+.btn {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: rainbow 5s ease infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
 .cases-container {
     margin-top: 48px;
 }

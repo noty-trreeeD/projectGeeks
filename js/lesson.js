@@ -2,79 +2,76 @@
 
 const phoneInput = document.querySelector('#phone_input');
 const phoneButton = document.querySelector('#phone_button');
-const phoneResult = document.querySelector('#phone_result');
+const phoneSpeech = document.querySelector('#phone_speech');
 
 const regExp = /^\+996 [2579]\d{2} \d{2} \d{2} \d{2}$/
 
 phoneButton.onclick = () => {
     if (regExp.test(phoneInput.value)) {
-        phoneResult.innerText = "Ok";
-        phoneResult.style.color = 'green';
-    } else {
-        phoneResult.innerText = "Error";
-        phoneResult.style.color = 'red';
+        phoneSpeech.style.color = 'green';
+
+        const operatorCode = phoneInput.value.slice(5, 8);
+        let operator = "";
+
+        if (/^(70)/.test(operatorCode)) {
+            operator = "Это точно O!";
+        } else if (/^(22|77)/.test(operatorCode)) {
+            operator = "Я уверен — Beeline!"
+        }
+        else if (/^(50|55)/.test(operatorCode)) {
+            operator = "Хм... это Megacom!";
+        }
+        phoneSpeech.innerText = operator;
+    } else if (phoneInput.value === '') {
+        phoneSpeech.innerText = "Введи номер в поле справа";
+        phoneSpeech.style.color = 'red';
+    }
+    else {
+        phoneSpeech.innerText = "Я не могу угадать, проверь номер";
+        phoneSpeech.style.color = 'red';
     }
 }
 
 // Tab slider
 
-const tabContentBlocks = document.querySelectorAll('.tab_content_block');
-const tabs = document.querySelectorAll('.tab_content_item');
-const tabsParent = document.querySelector('.tab_content_items');
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.team-slide');
+    let intervalId;
 
-const hideTabs = () => {
-    tabContentBlocks.forEach(block => {
-        block.style.display = 'none';
-    })
-    tabs.forEach(tab => {
-        tab.classList.remove('tab_content_item_active');
-    })
-}
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('tab-btn')) {
+            const tabId = e.target.getAttribute('data-tab');
 
-const showTabs = (i = 0) => {
-    tabContentBlocks[i].style.display = 'block';
-    tabs[i].classList.toggle('tab_content_item_active');
-}
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            e.target.classList.add('active');
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+            });
 
-tabsParent.onclick = (event) => {
-    if (event.target.classList.contains('tab_content_item')) {
-        tabs.forEach((tab, index) => {
-            if (event.target === tab) {
-                hideTabs();
-                showTabs(index);
-            }
-        })
+            document.querySelector(`.team-slide[data-tab-content="${tabId}"]`).classList.add('active');
+
+            clearInterval(intervalId);
+            intervalId = setInterval(autoSlide, 5000);
+        }
+    });
+
+    let currentTab = 0;
+    const tabButtons = document.querySelectorAll('.tab-btn');
+
+    function autoSlide() {
+        const activeTab = document.querySelector('.tab-btn.active');
+        if (!activeTab) return;
+
+        currentTab = Array.from(tabButtons).indexOf(activeTab);
+        currentTab = (currentTab + 1) % tabButtons.length;
+        tabButtons[currentTab].click();
     }
-};
+    intervalId = setInterval(autoSlide, 3000);
+});
 
-let currentIndex = 0;
-let intervalId;
 
-const startAutoSwitch = () => {
-    clearInterval(intervalId);
-    intervalId = setInterval(() => {
-        currentIndex = (currentIndex + 1) % tabs.length;
-        hideTabs();
-        showTabs(currentIndex);
-    }, 3000);
-};
-
-tabsParent.onclick = (event) => {
-    if (event.target.classList.contains('tab_content_item')) {
-        tabs.forEach((tab, index) => {
-            if (event.target === tab) {
-                hideTabs();
-                showTabs(index);
-                currentIndex = index;
-                startAutoSwitch();
-            }
-        });
-    }
-};
-
-hideTabs();
-showTabs();
-startAutoSwitch();
 
 // Converter
 
@@ -131,11 +128,14 @@ const fetchTodos = async () => {
         const responseTodos = await fetch(`https://jsonplaceholder.typicode.com/todos/${cardID}`)
         const {title, completed, id} = await responseTodos.json()
         cardBlock.innerHTML = `
-        <p>${title}</p>
-        <p style="color: ${completed ? 'green' : 'red'}">
-            ${completed}
-        </p>
-        <p>${id}</p>
+        <div class="cardSwithcer">
+            <p>${title}</p>
+            <p style="color: ${completed ? 'green' : 'red'}">
+                ${completed}
+            </p>
+            <p>${id}</p>
+        </div>
+        
     `
     } catch (e) {
         console.log(e)

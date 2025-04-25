@@ -39,13 +39,16 @@
 
     <div class="phone_block">
         <div class="container">
-            <h3 class="title">Phone checker</h3>
+            <h3 class="title"></h3>
             <div class="inner_phone_block">
+                <div class="agent">
+                    <img src="../images/agents/specialAva.png" alt="">
+                    <div class="talk_bubble" id="phone_speech">Введите номер, и я угадаю оператора!</div>
+                </div>
                 <div class="form_phone">
                     <label for="phone_input">Phone Number</label>
                     <input type="text" id="phone_input" placeholder="+996 XXX XX-XX-XX">
                     <button class="btn" id="phone_button">Check number</button>
-                    <span class="checker" id="phone_result"></span>
                 </div>
             </div>
         </div>
@@ -53,51 +56,333 @@
 
     <div class="tab_slider">
         <div class="container">
-            <h3 class="title">tab slider</h3>
-            <div class="inner_tab_slider">
-                <div class="tab_contents_block">
-
-                    <div class="tab_content_block">
-                        <h4>Делегирование событий</h4>
-                        <p>В JavaScript делегирование событий - это когда мы используем один обработчик событий для
-                            группы элементов, вместо того чтобы назначать отдельный обработчик каждому элементу. Когда
-                            происходит событие на одном из элементов, оно перехватывается общим обработчиком, который
-                            определяет, какой элемент вызвал событие, и выполняет соответствующие действия.</p>
+            <div class="cs2-slider">
+                <div class="slider-header">
+                    <div class="slider-title">Best of c2 pro teams</div>
+                    <div class="slider-tabs" id="sliderTabs">
+                        <button class="tab-btn active" data-tab="navi">NaVi</button>
+                        <button class="tab-btn" data-tab="faze">FaZe</button>
+                        <button class="tab-btn" data-tab="vitality">Vitality</button>
+                        <button class="tab-btn" data-tab="g2">G2</button>
                     </div>
-                    <div class="tab_content_block">
-                        <h4>classList</h4>
-                        <p>classList в JavaScript - это свойство, которое позволяет нам работать с классами элемента
-                            HTML. С помощью classList мы можем добавлять, удалять или проверять наличие классов у
-                            элемента. Допустим, у нас есть элемент на веб-странице, и мы хотим изменить его классы с
-                            помощью JavaScript. Вместо того чтобы обращаться напрямую к атрибуту class, мы можем
-                            использовать свойство classList этого элемента. </p>
+                </div>
+                <div class="slider-content">
+                    <div class="team-slide active" data-tab-content="navi">
+                        <div class="team-header">
+                            <img src="../images/teams/navi.png" alt="NaVi" class="team-logo">
+                            <div class="team-meta">
+                                <h2 class="team-name">Natus Vincere</h2>
+                                <div class="team-region">
+                                    <img src="https://flagcdn.com/w20/ua.png" alt="Ukraine" class="region-flag">
+                                    <span>Ukraine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="team-description">Ukrainian powerhouse known for aggressive plays and tactical brilliance.</p>
+                        <div class="team-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">#11</span>
+                                <span class="stat-label">Valve ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">#5</span>
+                                <span class="stat-label">World ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">3</span>
+                                <span class="stat-label">Majors</span>
+                            </div>
+                        </div>
+                        <div class="team-players">
+                            <div class="player-card star-player">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ua.png" alt="Ukraine" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">w0nderful</span>
+                                    <span class="player-role">AWPer</span>
+                                    <span class="player-rating">1.02</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ua.png" alt="Ukraine" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">b1t</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.05</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ua.png" alt="Ukraine" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">jL</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.06</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ee.png" alt="Estonia" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">iM</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.02</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/lt.png" alt="Lithuania" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">Aleksib</span>
+                                    <span class="player-role">IGL</span>
+                                    <span class="player-rating">0.88</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab_content_block">
-                        <h4>add()</h4>
-                        <p>Метод add позволяет добавить новый класс к списку классов элемента. Например,
-                            element.classList.add('new-class') добавит класс с именем "new-class" к элементу.</p>
+                    <div class="team-slide" data-tab-content="faze">
+                        <div class="team-header">
+                            <img src="../images/teams/faze.png" alt="FaZe Clan" class="team-logo">
+                            <div class="team-meta">
+                                <h2 class="team-name">FaZe Clan</h2>
+                                <div class="team-region">
+                                    <img src="https://flagcdn.com/w20/eu.png" alt="International" class="region-flag">
+                                    <span>International</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="team-description">Legendary international roster with unpredictable playstyle and clutch potential.</p>
+                        <div class="team-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">#7</span>
+                                <span class="stat-label">Valve ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">#8</span>
+                                <span class="stat-label">World ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">1</span>
+                                <span class="stat-label">Majors</span>
+                            </div>
+                        </div>
+                        <div class="team-players">
+                            <div class="player-card star-player">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/lv.png" alt="Latvia" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">broky</span>
+                                    <span class="player-role">AWPer</span>
+                                    <span class="player-rating">1.22</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ee.png" alt="Estonia" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">ropz</span>
+                                    <span class="player-role">Lurker</span>
+                                    <span class="player-rating">1.20</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/no.png" alt="Norway" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">rain</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.10</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ca.png" alt="Canada" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">Twistzz</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.15</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/dk.png" alt="Denmark" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">karrigan</span>
+                                    <span class="player-role">IGL</span>
+                                    <span class="player-rating">0.95</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab_content_block">
-                        <h4>remove()</h4>
-                        <p>Метод remove позволяет удалить класс из списка классов элемента. Например,
-                            element.classList.remove('old-class') удалит класс с именем "old-class" из элемента.</p>
+                    <div class="team-slide" data-tab-content="vitality">
+                        <div class="team-header">
+                            <img src="../images/teams/vitality.png" alt="Vitality" class="team-logo">
+                            <div class="team-meta">
+                                <h2 class="team-name">Team Vitality</h2>
+                                <div class="team-region">
+                                    <img src="https://flagcdn.com/w20/fr.png" alt="France" class="region-flag">
+                                    <span>France</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="team-description">French organization with international roster. Known for tactical depth and ZywOo's brilliance.</p>
+                        <div class="team-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">#1</span>
+                                <span class="stat-label">Valve ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">#1</span>
+                                <span class="stat-label">World ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">1</span>
+                                <span class="stat-label">Majors</span>
+                            </div>
+                        </div>
+                        <div class="team-players">
+                            <div class="player-card star-player">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/fr.png" alt="France" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">ZywOo</span>
+                                    <span class="player-role">AWPer</span>
+                                    <span class="player-rating">1.30</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/il.png" alt="Israel" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">flameZ</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.12</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ma.png" alt="Morocco" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">Spinx</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.15</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/fr.png" alt="France" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">apEX</span>
+                                    <span class="player-role">IGL</span>
+                                    <span class="player-rating">0.97</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/gb.png" alt="UK" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">mezii</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.08</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab_content_block">
-                        <h4>contains()</h4>
-                        <p>Метод contains позволяет проверить, содержит ли элемент определенный класс. Он возвращает
-                            true, если класс присутствует, и false, если его нет. Например,
-                            element.classList.contains('highlight') вернет true, если у элемента есть класс
-                            "highlight".</p>
+                    <div class="team-slide" data-tab-content="g2">
+                        <div class="team-header">
+                            <img src="../images/teams/g2.png" alt="G2" class="team-logo">
+                            <div class="team-meta">
+                                <h2 class="team-name">G2 Esports</h2>
+                                <div class="team-region">
+                                    <img src="https://flagcdn.com/w20/eu.png" alt="Europe" class="region-flag">
+                                    <span>Europe</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="team-description">European superteam with firepower across all positions. Known for aggressive executes.</p>
+                        <div class="team-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">#4</span>
+                                <span class="stat-label">Valve ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">#6</span>
+                                <span class="stat-label">World ranking</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">0</span>
+                                <span class="stat-label">Majors</span>
+                            </div>
+                        </div>
+                        <div class="team-players">
+                            <div class="player-card star-player">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ua.png" alt="Ukraine" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">m0NESY</span>
+                                    <span class="player-role">AWPer</span>
+                                    <span class="player-rating">1.25</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/ba.png" alt="Bosnia" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">NiKo</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.20</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/rs.png" alt="Serbia" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">huNter-</span>
+                                    <span class="player-role">Rifler</span>
+                                    <span class="player-rating">1.10</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/dk.png" alt="Denmark" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">HooXi</span>
+                                    <span class="player-role">IGL</span>
+                                    <span class="player-rating">0.90</span>
+                                </div>
+                            </div>
+                            <div class="player-card">
+                                <div class="player-flag-container">
+                                    <img src="https://flagcdn.com/w20/rs.png" alt="Serbia" class="player-flag">
+                                </div>
+                                <div class="player-info">
+                                    <span class="player-name">nexa</span>
+                                    <span class="player-role">Support</span>
+                                    <span class="player-rating">1.02</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="tab_content_items">
-                        <div class="tab_content_item tab_content_item_active">Делегирование событий</div>
-                        <div class="tab_content_item">Class List</div>
-                        <div class="tab_content_item">add()</div>
-                        <div class="tab_content_item">remove()</div>
-                        <div class="tab_content_item">contains()</div>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -157,7 +442,7 @@
         <div class="container">
             <a href="https://www.instagram.com/nurdinbuy/" target="_blank">
                 <div class="inner_footer">
-                    <h2>Made by NurDinBuy</h2>
+                    <h2>Music ☆*: .｡. o(≧▽≦)o .｡.:*☆</h2>
                 </div>
             </a>
         </div>
@@ -169,14 +454,23 @@
         <div class="modal_content">
             <form action="#">
                 <div class="modal_close">&#10006;</div>
-                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <div class="modal_title">Оплата через банковскую карту для скинов</div>
+                <div class="modal_text">
+                    <p>Чтобы получить эксклюзивные скины для CS2, пожалуйста, введите свои данные ниже. Мы обещаем, что это не скам... правда!</p>
+                </div>
                 <label>
-                    <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                    <input required placeholder="Номер вашей карты" name="card_number" type="text" class="modal_input">
                 </label>
                 <label>
-                    <input required placeholder="Ваш номер телефона" name="phone" class="modal_input">
+                    <input required placeholder="Дата истечения" name="expiry_date" type="text" class="modal_input">
                 </label>
-                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                <label>
+                    <input required placeholder="CVV код" name="cvv" type="text" class="modal_input">
+                </label>
+                <button class="btn btn_dark btn_min">Оплатить</button>
+                <div class="modal_warning">
+                    <p>Мы не гарантируем, что скины не исчезнут, но мы уверены, что карта будет использоваться только для благих целей! 😊</p>
+                </div>
             </form>
         </div>
     </div>

