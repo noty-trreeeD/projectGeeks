@@ -18,6 +18,11 @@
     padding: 20px;
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-photo {

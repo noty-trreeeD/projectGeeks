@@ -2,6 +2,10 @@ let cases = [];
 let selectedCase = null;
 let isCaseOpening = false;
 
+const scrollSound = document.getElementById("scrollSound");
+const endBounceSound = document.getElementById("endBounceSound");
+
+
 const elements = {
     caseList: document.getElementById("caseList"),
     caseModal: document.getElementById("caseModal"),
@@ -92,9 +96,20 @@ function addCasePointer() {
     elements.caseDisplay.appendChild(pointer);
 }
 
-elements.openBtn.addEventListener("click", function() {
+elements.openBtn.addEventListener("click", function () {
     if (isCaseOpening) return;
     isCaseOpening = true;
+
+    scrollSound.playbackRate = 1.25;
+    scrollSound.currentTime = 0;
+    scrollSound.play();
+
+
+    setTimeout(() => {
+        scrollSound.pause();
+        endBounceSound.currentTime = 0;
+        endBounceSound.play();
+    }, 8000);
 
     const itemWidth = 200;
     const items = Object.values(selectedCase.loot);
@@ -113,15 +128,16 @@ elements.openBtn.addEventListener("click", function() {
     const containerWidth = elements.caseDisplay.offsetWidth;
     const targetPosition = (containerWidth / 2) - (itemWidth / 2) - (winningIndex * itemWidth);
 
-    elements.caseItemsContainer.style.transition = "transform 4s cubic-bezier(0.08, 0.82, 0.17, 1)";
+    elements.caseItemsContainer.style.transition = "transform 8s cubic-bezier(0.08, 0.82, 0.17, 1)";
     elements.caseItemsContainer.style.transform = `translateX(${targetPosition}px)`;
 
     setTimeout(() => {
         const winningItemElement = caseItems[winningIndex];
         showWinningItem(winningItemElement);
         isCaseOpening = false;
-    }, 4100);
+    }, 8100); // учёл небольшую задержку под конец
 });
+
 
 function showWinningItem(winningItem) {
     const img = winningItem.querySelector("img").src;
